@@ -1,0 +1,123 @@
+MODULE 6 — EXPLORATORY UNCOLLAPSED CELL-LEVEL PILOT
+ 2026-10-18 18:47:23 UTC 
+
+Gene: CLDN16 | cells: 1512 | clones: 4 
+Response scale: Normalized expression; log base and preprocessing provenance unverified 
+Clone-balanced weights: inverse clone cell count, rescaled to mean 1.
+Each clone contributes equal total weight. These are balancing, not known precision weights.
+Retained branch predictors: 109 | independent directions: 77 
+
+Elastic Net: alpha=0.5 | lambda.1se=0.09845846 | selected branches=11
+lambda.min: 0.02937653 | lambda.1se: 0.09845846 | folds: 5 
+CV is clone-stratified cell interpolation used for tuning; not held-out-clone/patient validation.
+Fold IDs and tuning out-of-fold predictions are saved, not presented as unbiased final test performance.
+
+Linear basis: branch_edge_67, branch_edge_202, branch_edge_203, branch_edge_269, branch_edge_270, branch_edge_442, branch_edge_443, branch_edge_474, branch_edge_475, branch_edge_477, branch_edge_479, branch_edge_481, branch_edge_485, branch_edge_486, branch_edge_813, branch_edge_814, branch_edge_817, branch_edge_818, branch_edge_952, branch_edge_953, branch_edge_1059, branch_edge_1060, branch_edge_1062, branch_edge_1064, branch_edge_1099, branch_edge_1116, branch_edge_1117, branch_edge_1119, branch_edge_1124, branch_edge_1134, branch_edge_1135, branch_edge_1279, branch_edge_1281, branch_edge_1282, branch_edge_1335, branch_edge_1339, branch_edge_1350, branch_edge_1351, branch_edge_1352, branch_edge_1610, branch_edge_1673, branch_edge_1674, branch_edge_1763, branch_edge_1819, branch_edge_1820, branch_edge_1899, branch_edge_1901, branch_edge_2047, branch_edge_2060, branch_edge_2061, branch_edge_2062, branch_edge_2064, branch_edge_2221, branch_edge_2223, branch_edge_2224, branch_edge_2340, branch_edge_2341, branch_edge_2362, branch_edge_2481, branch_edge_2482, branch_edge_2484, branch_edge_2487, branch_edge_2574, branch_edge_2631, branch_edge_2632, branch_edge_2743, branch_edge_2744, branch_edge_2835, branch_edge_2836, branch_edge_2994, branch_edge_2995, branch_edge_2996, branch_edge_3008, branch_edge_3011, branch_edge_3012, branch_edge_3015, branch_edge_3017 
+Linear basis spans the eligible cellular partitions; lower training error can reflect extra flexibility. Basis coefficients do not identify unique shifts.
+
+Within-clone contrast availability:
+
+   insufficient_cells no_within_clone_split                 ready 
+                   21                   664                   187 
+Sister comparisons use other children of the immediate cellular parent, restricted to the same clone.
+No sample/site adjustment or confirmatory p-values; small or unsplit groups have no estimated difference.
+
+Selected EN branch classes (complete clone partitions versus within-clone splits):
+complete_clones_only
+FALSE  TRUE 
+    9     2 
+             term coefficient n_descendant_cells descendant_clones
+ branch_edge_1119  0.04072579                302                 2
+ branch_edge_1339 -0.17630037                 99                 3
+ branch_edge_1350 -0.48144810                103                 3
+ branch_edge_1351 -1.80794883                108                 3
+ branch_edge_3007  0.04154704                737                 0
+ branch_edge_3009  0.03384736                765                 0
+ branch_edge_3011  0.13160308                772                 0
+ branch_edge_3013  0.03894657                802                 0
+ branch_edge_3015  0.18604907                816                 0
+ branch_edge_3017  0.22010250                828                 0
+ branch_edge_3019  0.37400708                834                 0
+ splits_within_clone
+                TRUE
+                TRUE
+                TRUE
+               FALSE
+                TRUE
+                TRUE
+                TRUE
+                TRUE
+                TRUE
+                TRUE
+               FALSE
+
+Training fit metrics:
+                 model n_cells n_clones weighted_rmse weighted_mae
+        intercept_only    1512        4     1.4488279    1.2155748
+ clone_means_reference    1512        4     0.5265391    0.3620859
+           elastic_net    1512        4     0.5380020    0.3929492
+                linear    1512        4     0.5105757    0.3523262
+ weighted_r_squared_apparent      rmse       mae r_squared_apparent
+                   0.0000000 1.3682012 1.1952978         -0.4950619
+                   0.8679228 0.5581583 0.3981996          0.7511864
+                   0.8621096 0.5641760 0.4192614          0.7457924
+                   0.8758100 0.5404383 0.3877821          0.7667340
+                               evaluation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+
+LIMITATIONS
+- Training fit and tuning CV do not establish independent biological replication.
+- Cells may be dependent; no naive cell-level p-values or confidence intervals are supplied.
+- No sample/site covariates are fitted in this pilot; confounding is not resolved by balancing.
+- Response units are not automatically log2FC. Root/support limitations remain.
+- Use the shared Module 5 validator with this pilot for stability and bounded working-likelihood comparisons.
+
+Options used:
+$expression
+[1] "results/module03.expression.rds"
+
+$tree_designs
+[1] "results/module02.tree_designs.rds"
+
+$gene
+[1] "CLDN16"
+
+$model
+[1] "all"
+
+$alpha
+[1] 0.5
+
+$nfolds
+[1] 5
+
+$lambda_choice
+[1] "lambda.1se"
+
+$seed
+[1] 12345
+
+$min_contrast_cells
+[1] 10
+
+$output_prefix
+[1] "results/module07/CLDN16/CLDN16_uncollapsed_attempt1"
+
+$help
+[1] FALSE
+
+
+Files to return:
+results/module07/CLDN16/CLDN16_uncollapsed_attempt1.report.txt
+results/module07/CLDN16/CLDN16_uncollapsed_attempt1.coefficients.tsv
+results/module07/CLDN16/CLDN16_uncollapsed_attempt1.contrasts.tsv
+results/module07/CLDN16/CLDN16_uncollapsed_attempt1.fit_metrics.tsv
+results/module07/CLDN16/CLDN16_uncollapsed_attempt1.cell_predictions.tsv.gz
+results/module07/CLDN16/CLDN16_uncollapsed_attempt1.models.rds
+results/module07/CLDN16/CLDN16_uncollapsed_attempt1.comparison.png
+results/module07/CLDN16/CLDN16_uncollapsed_attempt1.selected_tree.png 
+
+UNCOLLAPSED FIT COMPLETE — run 05_validate_models.R on the saved pilot for validation.

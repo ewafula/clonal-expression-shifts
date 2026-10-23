@@ -1,0 +1,189 @@
+"model"	"term"	"coefficient"	"selected"	"interpretation"	"descendant_clones"	"n_descendant_cells"	"complete_clones_only"	"splits_within_clone"
+"elastic_net"	"(Intercept)"	1.57218805546568	TRUE	"penalized simultaneous branch contribution; response units"	NA	NA	NA	NA
+"elastic_net"	"branch_edge_67"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	25	FALSE	TRUE
+"elastic_net"	"branch_edge_202"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	30	FALSE	TRUE
+"elastic_net"	"branch_edge_203"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	49	FALSE	TRUE
+"elastic_net"	"branch_edge_269"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	33	FALSE	TRUE
+"elastic_net"	"branch_edge_270"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	53	FALSE	TRUE
+"elastic_net"	"branch_edge_442"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	28	FALSE	TRUE
+"elastic_net"	"branch_edge_443"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	39	FALSE	TRUE
+"elastic_net"	"branch_edge_474"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	46	FALSE	TRUE
+"elastic_net"	"branch_edge_475"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	61	FALSE	TRUE
+"elastic_net"	"branch_edge_477"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	77	FALSE	TRUE
+"elastic_net"	"branch_edge_479"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	99	FALSE	TRUE
+"elastic_net"	"branch_edge_481"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	106	FALSE	TRUE
+"elastic_net"	"branch_edge_482"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	86	FALSE	TRUE
+"elastic_net"	"branch_edge_483"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	192	FALSE	TRUE
+"elastic_net"	"branch_edge_485"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	209	FALSE	TRUE
+"elastic_net"	"branch_edge_486"	0	FALSE	"penalized simultaneous branch contribution; response units"	"14"	35	FALSE	TRUE
+"elastic_net"	"branch_edge_813"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	27	FALSE	TRUE
+"elastic_net"	"branch_edge_814"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	29	FALSE	TRUE
+"elastic_net"	"branch_edge_815"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	56	FALSE	TRUE
+"elastic_net"	"branch_edge_817"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	72	FALSE	TRUE
+"elastic_net"	"branch_edge_818"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	38	FALSE	TRUE
+"elastic_net"	"branch_edge_819"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	110	FALSE	TRUE
+"elastic_net"	"branch_edge_952"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	34	FALSE	TRUE
+"elastic_net"	"branch_edge_953"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	58	FALSE	TRUE
+"elastic_net"	"branch_edge_1059"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	28	FALSE	TRUE
+"elastic_net"	"branch_edge_1060"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	26	FALSE	TRUE
+"elastic_net"	"branch_edge_1061"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	54	FALSE	TRUE
+"elastic_net"	"branch_edge_1062"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	68	FALSE	TRUE
+"elastic_net"	"branch_edge_1063"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	122	FALSE	TRUE
+"elastic_net"	"branch_edge_1064"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	124	FALSE	TRUE
+"elastic_net"	"branch_edge_1098"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	246	FALSE	TRUE
+"elastic_net"	"branch_edge_1099"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	263	FALSE	TRUE
+"elastic_net"	"branch_edge_1116"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	286	FALSE	TRUE
+"elastic_net"	"branch_edge_1117"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	294	FALSE	TRUE
+"elastic_net"	"branch_edge_1119"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	302	FALSE	TRUE
+"elastic_net"	"branch_edge_1124"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	310	FALSE	TRUE
+"elastic_net"	"branch_edge_1134"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	312	FALSE	TRUE
+"elastic_net"	"branch_edge_1135"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	317	FALSE	TRUE
+"elastic_net"	"branch_edge_1279"	0	FALSE	"penalized simultaneous branch contribution; response units"	"3"	27	FALSE	TRUE
+"elastic_net"	"branch_edge_1281"	0	FALSE	"penalized simultaneous branch contribution; response units"	"3"	39	FALSE	TRUE
+"elastic_net"	"branch_edge_1282"	0	FALSE	"penalized simultaneous branch contribution; response units"	"3"	27	FALSE	TRUE
+"elastic_net"	"branch_edge_1335"	0	FALSE	"penalized simultaneous branch contribution; response units"	"3"	27	FALSE	TRUE
+"elastic_net"	"branch_edge_1336"	0	FALSE	"penalized simultaneous branch contribution; response units"	"3"	66	FALSE	TRUE
+"elastic_net"	"branch_edge_1337"	0	FALSE	"penalized simultaneous branch contribution; response units"	"3"	93	FALSE	TRUE
+"elastic_net"	"branch_edge_1339"	-0.124610769382264	TRUE	"penalized simultaneous branch contribution; response units"	"3"	99	FALSE	TRUE
+"elastic_net"	"branch_edge_1350"	-0.288975982276458	TRUE	"penalized simultaneous branch contribution; response units"	"3"	103	FALSE	TRUE
+"elastic_net"	"branch_edge_1351"	-0.604440576900823	TRUE	"penalized simultaneous branch contribution; response units"	"3"	108	TRUE	FALSE
+"elastic_net"	"branch_edge_1352"	0	FALSE	"penalized simultaneous branch contribution; response units"	"2"	326	TRUE	FALSE
+"elastic_net"	"branch_edge_1610"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	27	FALSE	TRUE
+"elastic_net"	"branch_edge_1673"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	32	FALSE	TRUE
+"elastic_net"	"branch_edge_1674"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	39	FALSE	TRUE
+"elastic_net"	"branch_edge_1763"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	30	FALSE	TRUE
+"elastic_net"	"branch_edge_1819"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	28	FALSE	TRUE
+"elastic_net"	"branch_edge_1820"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	46	FALSE	TRUE
+"elastic_net"	"branch_edge_1899"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	27	FALSE	TRUE
+"elastic_net"	"branch_edge_1901"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	30	FALSE	TRUE
+"elastic_net"	"branch_edge_2047"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	26	FALSE	TRUE
+"elastic_net"	"branch_edge_2060"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	43	FALSE	TRUE
+"elastic_net"	"branch_edge_2061"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	49	FALSE	TRUE
+"elastic_net"	"branch_edge_2062"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	32	FALSE	TRUE
+"elastic_net"	"branch_edge_2063"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	81	FALSE	TRUE
+"elastic_net"	"branch_edge_2064"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	42	FALSE	TRUE
+"elastic_net"	"branch_edge_2221"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	38	FALSE	TRUE
+"elastic_net"	"branch_edge_2223"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	53	FALSE	TRUE
+"elastic_net"	"branch_edge_2224"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	28	FALSE	TRUE
+"elastic_net"	"branch_edge_2340"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	26	FALSE	TRUE
+"elastic_net"	"branch_edge_2341"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	30	FALSE	TRUE
+"elastic_net"	"branch_edge_2362"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	43	FALSE	TRUE
+"elastic_net"	"branch_edge_2481"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	30	FALSE	TRUE
+"elastic_net"	"branch_edge_2482"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	31	FALSE	TRUE
+"elastic_net"	"branch_edge_2483"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	61	FALSE	TRUE
+"elastic_net"	"branch_edge_2484"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	53	FALSE	TRUE
+"elastic_net"	"branch_edge_2485"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	114	FALSE	TRUE
+"elastic_net"	"branch_edge_2487"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	132	FALSE	TRUE
+"elastic_net"	"branch_edge_2488"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	81	FALSE	TRUE
+"elastic_net"	"branch_edge_2574"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	32	FALSE	TRUE
+"elastic_net"	"branch_edge_2631"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	29	FALSE	TRUE
+"elastic_net"	"branch_edge_2632"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	44	FALSE	TRUE
+"elastic_net"	"branch_edge_2633"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	73	FALSE	TRUE
+"elastic_net"	"branch_edge_2634"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	213	FALSE	TRUE
+"elastic_net"	"branch_edge_2743"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	31	FALSE	TRUE
+"elastic_net"	"branch_edge_2744"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	25	FALSE	TRUE
+"elastic_net"	"branch_edge_2778"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	56	FALSE	TRUE
+"elastic_net"	"branch_edge_2835"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	29	FALSE	TRUE
+"elastic_net"	"branch_edge_2836"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	73	FALSE	TRUE
+"elastic_net"	"branch_edge_2994"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	30	FALSE	TRUE
+"elastic_net"	"branch_edge_2995"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	53	FALSE	TRUE
+"elastic_net"	"branch_edge_2996"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	28	FALSE	TRUE
+"elastic_net"	"branch_edge_2997"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	81	FALSE	TRUE
+"elastic_net"	"branch_edge_2998"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	102	FALSE	TRUE
+"elastic_net"	"branch_edge_2999"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	183	FALSE	TRUE
+"elastic_net"	"branch_edge_3000"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	286	FALSE	TRUE
+"elastic_net"	"branch_edge_3001"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	469	FALSE	TRUE
+"elastic_net"	"branch_edge_3002"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	123	FALSE	TRUE
+"elastic_net"	"branch_edge_3003"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	592	FALSE	TRUE
+"elastic_net"	"branch_edge_3004"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	74	FALSE	TRUE
+"elastic_net"	"branch_edge_3005"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	666	FALSE	TRUE
+"elastic_net"	"branch_edge_3006"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	71	FALSE	TRUE
+"elastic_net"	"branch_edge_3007"	0.0335700139031004	TRUE	"penalized simultaneous branch contribution; response units"	"0"	737	FALSE	TRUE
+"elastic_net"	"branch_edge_3008"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	28	FALSE	TRUE
+"elastic_net"	"branch_edge_3009"	0.214161773987839	TRUE	"penalized simultaneous branch contribution; response units"	"0"	765	FALSE	TRUE
+"elastic_net"	"branch_edge_3011"	0.134295505739047	TRUE	"penalized simultaneous branch contribution; response units"	"0"	772	FALSE	TRUE
+"elastic_net"	"branch_edge_3012"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0"	30	FALSE	TRUE
+"elastic_net"	"branch_edge_3013"	0.0516542679969833	TRUE	"penalized simultaneous branch contribution; response units"	"0"	802	FALSE	TRUE
+"elastic_net"	"branch_edge_3015"	0.179432859713013	TRUE	"penalized simultaneous branch contribution; response units"	"0"	816	FALSE	TRUE
+"elastic_net"	"branch_edge_3017"	0.158753088330275	TRUE	"penalized simultaneous branch contribution; response units"	"0"	828	FALSE	TRUE
+"elastic_net"	"branch_edge_3019"	0.169424220138597	TRUE	"penalized simultaneous branch contribution; response units"	"0"	834	TRUE	FALSE
+"elastic_net"	"branch_edge_3020"	-0.125590477937921	TRUE	"penalized simultaneous branch contribution; response units"	"2;3"	434	TRUE	FALSE
+"elastic_net"	"branch_edge_3021"	0	FALSE	"penalized simultaneous branch contribution; response units"	"0;2;3"	1268	TRUE	FALSE
+"linear"	"(Intercept)"	1.90299187812827	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	NA	NA	NA	NA
+"linear"	"branch_edge_67"	0.172129158776771	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	25	FALSE	TRUE
+"linear"	"branch_edge_202"	-0.319037908004052	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	30	FALSE	TRUE
+"linear"	"branch_edge_203"	0.562882921541662	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	49	FALSE	TRUE
+"linear"	"branch_edge_269"	-0.292292109414709	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	33	FALSE	TRUE
+"linear"	"branch_edge_270"	-0.538832593423933	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	53	FALSE	TRUE
+"linear"	"branch_edge_442"	-0.526885182005313	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	28	FALSE	TRUE
+"linear"	"branch_edge_443"	0.375135075729981	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	39	FALSE	TRUE
+"linear"	"branch_edge_474"	-0.26919649624114	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	46	FALSE	TRUE
+"linear"	"branch_edge_475"	0.0489117558889236	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	61	FALSE	TRUE
+"linear"	"branch_edge_477"	0.284667191485269	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	77	FALSE	TRUE
+"linear"	"branch_edge_479"	-0.0808886274170575	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	99	FALSE	TRUE
+"linear"	"branch_edge_481"	-0.270487048568574	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	106	FALSE	TRUE
+"linear"	"branch_edge_485"	-0.162917221646018	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	209	FALSE	TRUE
+"linear"	"branch_edge_486"	-0.0145181320940663	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"14"	35	FALSE	TRUE
+"linear"	"branch_edge_813"	0.441815333411239	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	27	FALSE	TRUE
+"linear"	"branch_edge_814"	0.279012152530282	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	29	FALSE	TRUE
+"linear"	"branch_edge_817"	-0.113991651100951	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	72	FALSE	TRUE
+"linear"	"branch_edge_818"	0.202516485140681	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	38	FALSE	TRUE
+"linear"	"branch_edge_952"	0.379655957537435	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	34	FALSE	TRUE
+"linear"	"branch_edge_953"	-0.431370689138137	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	58	FALSE	TRUE
+"linear"	"branch_edge_1059"	-0.15746697579211	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	28	FALSE	TRUE
+"linear"	"branch_edge_1060"	0.14656354145909	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	26	FALSE	TRUE
+"linear"	"branch_edge_1062"	0.0455466204130961	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	68	FALSE	TRUE
+"linear"	"branch_edge_1064"	-0.206352501173314	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	124	FALSE	TRUE
+"linear"	"branch_edge_1099"	-0.134802902802431	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	263	FALSE	TRUE
+"linear"	"branch_edge_1116"	0.331491635729218	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	286	FALSE	TRUE
+"linear"	"branch_edge_1117"	-0.210460110561048	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	294	FALSE	TRUE
+"linear"	"branch_edge_1119"	-0.175256705759804	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	302	FALSE	TRUE
+"linear"	"branch_edge_1124"	-0.237859968056817	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	310	FALSE	TRUE
+"linear"	"branch_edge_1134"	-0.233593130688397	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	312	FALSE	TRUE
+"linear"	"branch_edge_1135"	0.561893188083528	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	317	FALSE	TRUE
+"linear"	"branch_edge_1279"	0.112422702610069	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"3"	27	FALSE	TRUE
+"linear"	"branch_edge_1281"	0.0218010934396378	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"3"	39	FALSE	TRUE
+"linear"	"branch_edge_1282"	-0.0546595734829636	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"3"	27	FALSE	TRUE
+"linear"	"branch_edge_1335"	-0.0413422635302289	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"3"	27	FALSE	TRUE
+"linear"	"branch_edge_1339"	-0.0107920977318638	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"3"	99	FALSE	TRUE
+"linear"	"branch_edge_1350"	-0.118675189591032	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"3"	103	FALSE	TRUE
+"linear"	"branch_edge_1351"	-1.53335552765992	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"3"	108	TRUE	FALSE
+"linear"	"branch_edge_1352"	-0.333890453275123	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"2"	326	TRUE	FALSE
+"linear"	"branch_edge_1610"	0.0681351826611952	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	27	FALSE	TRUE
+"linear"	"branch_edge_1673"	0.733960935018538	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	32	FALSE	TRUE
+"linear"	"branch_edge_1674"	0.838652203649768	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	39	FALSE	TRUE
+"linear"	"branch_edge_1763"	0.0828623436485098	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	30	FALSE	TRUE
+"linear"	"branch_edge_1819"	1.16620451365005	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	28	FALSE	TRUE
+"linear"	"branch_edge_1820"	0.841548794083753	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	46	FALSE	TRUE
+"linear"	"branch_edge_1899"	-0.259502624698093	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	27	FALSE	TRUE
+"linear"	"branch_edge_1901"	0.361894689024732	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	30	FALSE	TRUE
+"linear"	"branch_edge_2047"	0.0807565126634559	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	26	FALSE	TRUE
+"linear"	"branch_edge_2060"	-0.204850690223195	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	43	FALSE	TRUE
+"linear"	"branch_edge_2061"	0.715304546679998	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	49	FALSE	TRUE
+"linear"	"branch_edge_2062"	0.741715300934258	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	32	FALSE	TRUE
+"linear"	"branch_edge_2064"	0.994322516020209	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	42	FALSE	TRUE
+"linear"	"branch_edge_2221"	0.0532303233992272	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	38	FALSE	TRUE
+"linear"	"branch_edge_2223"	0.907809633297569	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	53	FALSE	TRUE
+"linear"	"branch_edge_2224"	0.801159419628109	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	28	FALSE	TRUE
+"linear"	"branch_edge_2340"	-0.354570987604832	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	26	FALSE	TRUE
+"linear"	"branch_edge_2341"	0.507451291097388	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	30	FALSE	TRUE
+"linear"	"branch_edge_2362"	-0.0620913871707389	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	43	FALSE	TRUE
+"linear"	"branch_edge_2481"	0.472777006174544	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	30	FALSE	TRUE
+"linear"	"branch_edge_2482"	0.0968853668654957	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	31	FALSE	TRUE
+"linear"	"branch_edge_2484"	0.111982259387756	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	53	FALSE	TRUE
+"linear"	"branch_edge_2487"	0.807598163752942	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	132	FALSE	TRUE
+"linear"	"branch_edge_2574"	0.379748315035301	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	32	FALSE	TRUE
+"linear"	"branch_edge_2631"	1.11064288081888	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	29	FALSE	TRUE
+"linear"	"branch_edge_2632"	0.689392614808027	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	44	FALSE	TRUE
+"linear"	"branch_edge_2743"	-0.220884767560057	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	31	FALSE	TRUE
+"linear"	"branch_edge_2744"	0.192974401054837	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	25	FALSE	TRUE
+"linear"	"branch_edge_2835"	0.897581157334617	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	29	FALSE	TRUE
+"linear"	"branch_edge_2836"	0.767113085191707	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	73	FALSE	TRUE
+"linear"	"branch_edge_2994"	0.236991254610782	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	30	FALSE	TRUE
+"linear"	"branch_edge_2995"	0.62884762137482	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	53	FALSE	TRUE
+"linear"	"branch_edge_2996"	0.769955908877002	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	28	FALSE	TRUE
+"linear"	"branch_edge_3008"	1.03220889285871	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	28	FALSE	TRUE
+"linear"	"branch_edge_3011"	-0.750583044956516	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	772	FALSE	TRUE
+"linear"	"branch_edge_3012"	-0.488785466248413	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	30	FALSE	TRUE
+"linear"	"branch_edge_3015"	0.684090082944249	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	816	FALSE	TRUE
+"linear"	"branch_edge_3017"	-0.0332735751450322	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"0"	828	FALSE	TRUE

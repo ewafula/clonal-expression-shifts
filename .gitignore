@@ -1,0 +1,23 @@
+
+# Large Seurat object: exclude from GitHub
+/inputs/SPECTRUM-cell-ploidy-prediction.rds
+
+# Local development and session records
+/SESSIONS.md
+/docs/DEPENDENCIES.lock.tsv
+/docs/DEVELOPMENT_PLAN.md
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS metadata
+.DS_Store
+
+# Machine-specific R libraries
+/local_R_library/
+/R_libs/
+
+# All analysis results are tracked
+

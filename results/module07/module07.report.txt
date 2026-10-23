@@ -1,0 +1,10 @@
+MODULE 7 — GENE PANEL
+Completed gene/tree-mode validations: 10 of 10
+Reuses scripts 04/06 and shared validator 05; default fitting/tuning and 80% clone-stratified sampling retained.
+Panel patterns are relative to the prepared genes. DEG-selected genes are not independent negative controls.
+Training metrics are apparent fit; stability is conditional on fixed topology. No pooled p-values or significance claims.
+IC comparisons are within each gene/mode only. Do not rank genes by AIC/BIC; bounded searches may differ between modes.
+Elapsed time is per child process; output bytes below are file storage, not peak RAM. Peak RAM is not measured.
+Child output storage bytes: 13696639
+Review panel/status/summary tables and per-gene outputs before larger batches. Resume with the same command plus --resume.
+Failed or interrupted stages retry under a new attempt suffix; previous files are preserved.

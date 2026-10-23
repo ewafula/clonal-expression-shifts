@@ -1,0 +1,6 @@
+"gene"	"mean"	"fraction_nonzero"	"sd"	"clone_mean_range"	"selection_reason"	"panel_index"	"gene_directory"
+"CLDN16"	3.11130198003526	0.94510582010582	1.11934521888645	3.65645408242333	"pilot anchor (CLDN16 when prepared; otherwise first available)"	1	"results/module07/CLDN16"
+"S100A10"	0.897798900909419	0.457671957671958	1.22668203732433	2.60319180084379	"largest clone-mean range"	2	"results/module07/S100A10"
+"PAMR1"	0.0483732685161851	0.0621693121693122	0.227025969690554	0.615037873457312	"lowest detection fraction"	3	"results/module07/PAMR1"
+"S100A4"	2.04620330231791	0.948412698412698	1.17876974986659	2.38468349618919	"highest detection fraction"	4	"results/module07/S100A4"
+"LINC03061"	0.0813676245143128	0.16005291005291	0.222248645847281	0.361903372623318	"smallest clone-mean range among prepared genes"	5	"results/module07/LINC03061"

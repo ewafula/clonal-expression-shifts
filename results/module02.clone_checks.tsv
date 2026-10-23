@@ -1,0 +1,5 @@
+"clone_id"	"n_cells"	"mrca_node"	"n_cells_below_mrca"	"monophyletic"	"mrca_label_raw"
+"0"	834	1515	834	TRUE	"0.792"
+"14"	244	2781	244	TRUE	"0.977"
+"2"	326	2456	326	TRUE	"0.553"
+"3"	108	2349	108	TRUE	"0.989"

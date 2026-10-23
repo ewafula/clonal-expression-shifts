@@ -1,0 +1,74 @@
+MODULE 1 — INPUT INSPECTION
+ 2026-10-18 16:14:03 UTC 
+
+Purpose: inspect inputs only; no normalization, filtering, tree collapse, or model fitting.
+
+SeuratObject version: 5.4.0 
+ape version: 5.8.1 
+seurat_object: inputs/SPECTRUM-cell-ploidy-prediction.rds
+concordant_clones: inputs/MERGED.Ovarian-cancer.fasttree.manifold.concordant.clones.tsv.gz
+clonal_tree: inputs/MERGED.Ovarian-cancer.fasttree.manifold.clone.treefile
+
+EXPRESSION OBJECT
+Cells: 24361 
+Assay: RNA | features: 29616 | cells: 24361 | layers/slots: data, counts, scale.data 
+Assay to use: RNA 
+CLDN16 present: TRUE 
+Layer names do not establish normalization scale or raw-count provenance.
+
+METADATA COLUMNS
+          column      type missing
+      orig.ident character       0
+      nCount_RNA   numeric       0
+    nFeature_RNA   integer       0
+         cell_id character       0
+       sample_id character       0
+ RNA_snn_res.0.3    factor       0
+ seurat_clusters    factor       0
+       cell_type    factor     760
+     cell_ploidy character       0
+      cell_class character       0
+
+SAMPLE-RELATED METADATA VALUES
+
+orig.ident: 6 distinct nonmissing values
+z
+   PELVIC_PERITONEUM         RIGHT_ADNEXA  LEFT_UPPER_QUADRANT 
+                5562                 4291                 4204 
+  INFRACOLIC_OMENTUM          LEFT_ADNEXA RIGHT_UPPER_QUADRANT 
+                4105                 3676                 2523 
+
+sample_id: 6 distinct nonmissing values
+z
+   PELVIC_PERITONEUM         RIGHT_ADNEXA  LEFT_UPPER_QUADRANT 
+                5562                 4291                 4204 
+  INFRACOLIC_OMENTUM          LEFT_ADNEXA RIGHT_UPPER_QUADRANT 
+                4105                 3676                 2523 
+
+CELL OVERLAP
+Seurat object: 24361 
+Selected assay: 24361 
+Clone table: 1512 
+Tree: 1512 
+Shared across selected assay/clone table/tree: 1512 
+assay IDs outside shared set: 22849 
+  Examples: INFRACOLIC_OMENTUM_AAACCCAAGACGGAAA-1, INFRACOLIC_OMENTUM_AAACCCACATTCTCTA-1, INFRACOLIC_OMENTUM_AAACCCAGTGCAGGAT-1, INFRACOLIC_OMENTUM_AAACCCATCAATCCAG-1, INFRACOLIC_OMENTUM_AAACGAAAGCCTGTGC-1, INFRACOLIC_OMENTUM_AAACGAATCACTCACC-1, INFRACOLIC_OMENTUM_AAACGAATCCCGAGGT-1, INFRACOLIC_OMENTUM_AAACGCTAGTACTGGG-1, INFRACOLIC_OMENTUM_AAACGCTAGTATAACG-1, INFRACOLIC_OMENTUM_AAACGCTAGTCAGCGA-1 
+clone_table IDs outside shared set: 0 
+tree IDs outside shared set: 0 
+
+CLONE COUNTS — SHARED CELLS
+clone
+  0  14   2   3 
+834 244 326 108 
+
+Sample grouping not requested; clone/cell alignment does not require sample IDs.
+
+REVIEW BEFORE NEXT MODULE
+- Clone IDs and cell IDs are the required grouping/alignment identifiers.
+- If sample grouping was requested, confirm its metadata meaning; no samples are inferred.
+- Confirm normalized-expression scale and preprocessing provenance.
+- Review cell overlap losses above; no input was pruned or overwritten.
+- This inspection does not validate every layer-specific cell set or every expression value.
+- Root/support and branch designs belong in Module 2.
+
+INSPECTION COMPLETE — review before running Module 2.

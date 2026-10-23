@@ -1,0 +1,98 @@
+SHARED MODEL VALIDATOR (MODULES 5–6) — STABILITY AND WORKING-LIKELIHOOD COMPARISONS
+ 2026-10-18 18:50:30 UTC 
+
+Tree mode: uncollapsed 
+Gene: LINC03061 | methods: elastic_net, linear, contrasts | cells: 1512 
+Subsamples: 100 | fraction per clone: 0.8 | sampling WITHOUT replacement
+Elastic Net is retuned inside every resample using the pilot alpha/lambda rule.
+Weights recomputed by retained clone sizes; branch identities fixed to saved Module 2 descendants.
+No sample/site stratification or between-patient replication is implied.
+
+Completed subsample 1 of 100 
+Completed subsample 10 of 100 
+Completed subsample 20 of 100 
+Completed subsample 30 of 100 
+Completed subsample 40 of 100 
+Completed subsample 50 of 100 
+Completed subsample 60 of 100 
+Completed subsample 70 of 100 
+Completed subsample 80 of 100 
+Completed subsample 90 of 100 
+Completed subsample 100 of 100 
+Overlap neighborhood uses Jaccard >=0.8 on fixed descendant cell sets, including the branch itself. It is a sensitivity summary, not a distinct historical region.
+
+Iteration outcomes:
+             
+              not_estimable success
+  contrasts               0     100
+  elastic_net             0     100
+  linear                  9      91
+Frequencies use successful estimates only; failed/non-estimable fits remain explicit and never become zero coefficients.
+Non-Elastic-Net methods are not variable selection: their selection_frequency is NA.
+q05/q95 are subsampling ranges including zero estimates, NOT confidence intervals or p-values.
+
+INFORMATION CRITERIA: ordinary unweighted iid Gaussian ML refits on the SAME gene/cells.
+This working likelihood assumes independent homoskedastic cell errors, which are not established.
+It targets ordinary cell-weighted fit, not the clone-balanced objective. No penalized glmnet objective is scored.
+More than 10 predictors: bounded comparison of null, single branches, pilot active set and linear basis; no exhaustive search.
+
+Lowest working BIC scores by distinct prediction space (up to five):
+                        model_id equivalence_group rank       AIC       BIC
+                       single_37          space_38    2 -1168.650 -1152.687
+ ancestor_child_branch_edge_1124         space_119    3 -1172.776 -1151.491
+ ancestor_child_branch_edge_1134         space_121    3 -1168.040 -1146.755
+   active_minus_branch_edge_1135         space_122    7 -1185.410 -1142.840
+   active_minus_branch_edge_1116         space_114    7 -1184.544 -1141.975
+ delta_BIC
+  0.000000
+  1.195878
+  5.931563
+  9.846344
+ 10.711777
+k includes design rank (intercept included) plus ONE residual variance parameter. n is the cell count under this declared likelihood.
+Equivalent spaces do not identify unique historical branches. Search/post-selection and cell dependence are not corrected by IC.
+
+LIMITATIONS: cell-sampling/tuning stability on one fixed tree; no new samples/patients, topology support, or confounding adjustment.
+Selection frequencies are not p-values; no automatic strong-support cutoff is imposed.
+Information criteria cannot be compared across genes, datasets, transformations, or balancing/precision assumptions.
+
+Options used:
+$pilot
+[1] "results/module07/LINC03061/LINC03061_uncollapsed_attempt1.models.rds"
+
+$expression
+[1] "results/module03.expression.rds"
+
+$tree_designs
+[1] "results/module02.tree_designs.rds"
+
+$reps
+[1] 100
+
+$fraction
+[1] 0.8
+
+$seed
+[1] 12345
+
+$skip_ic
+[1] FALSE
+
+$output_prefix
+[1] "results/module07/LINC03061/LINC03061_uncollapsed_validation_attempt1"
+
+$help
+[1] FALSE
+
+
+Files to return:
+results/module07/LINC03061/LINC03061_uncollapsed_validation_attempt1.report.txt
+results/module07/LINC03061/LINC03061_uncollapsed_validation_attempt1.stability.tsv
+results/module07/LINC03061/LINC03061_uncollapsed_validation_attempt1.resamples.tsv.gz
+results/module07/LINC03061/LINC03061_uncollapsed_validation_attempt1.iteration_status.tsv
+results/module07/LINC03061/LINC03061_uncollapsed_validation_attempt1.model_comparison.tsv
+results/module07/LINC03061/LINC03061_uncollapsed_validation_attempt1.validation.rds
+results/module07/LINC03061/LINC03061_uncollapsed_validation_attempt1.stability.png 
+
+VALIDATION COMPLETE — review method success counts and working-model assumptions before running gene panel Module 7.
+Report: results/module07/LINC03061/LINC03061_uncollapsed_validation_attempt1.report.txt

@@ -1,0 +1,11 @@
+"model"	"term"	"coefficient"	"selected"	"interpretation"	"descendant_clones"
+"elastic_net"	"(Intercept)"	0.223923786957912	TRUE	"penalized simultaneous branch contribution; response units"	NA
+"elastic_net"	"branch_edge_187"	0	FALSE	"penalized simultaneous branch contribution; response units"	"B"
+"elastic_net"	"branch_edge_188"	3.01708067480819	TRUE	"penalized simultaneous branch contribution; response units"	"C"
+"elastic_net"	"branch_edge_251"	0	FALSE	"penalized simultaneous branch contribution; response units"	"A"
+"elastic_net"	"branch_edge_252"	0.0910244105306929	TRUE	"penalized simultaneous branch contribution; response units"	"B;C"
+"elastic_net"	"branch_edge_253"	0	FALSE	"penalized simultaneous branch contribution; response units"	"A;B;C"
+"linear"	"(Intercept)"	-5.19090374832638e-16	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	NA
+"linear"	"branch_edge_187"	0.135181612065155	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"B"
+"linear"	"branch_edge_188"	3.95964303163607	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"C"
+"linear"	"branch_edge_251"	-1.71373633293765e-16	NA	"unpenalized coefficient in saved full-rank basis; not variable selection"	"A"

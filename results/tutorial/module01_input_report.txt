@@ -1,0 +1,58 @@
+MODULE 1 — INPUT INSPECTION
+ 2026-10-18 20:28:12 UTC 
+
+Purpose: inspect inputs only; no normalization, filtering, tree collapse, or model fitting.
+
+SeuratObject version: 5.4.0 
+ape version: 5.8.1 
+seurat_object: inputs/tutorial/expression.rds
+concordant_clones: inputs/tutorial/clones.tsv
+clonal_tree: inputs/tutorial/tree.nwk
+
+EXPRESSION OBJECT
+Cells: 128 
+Assay: RNA | features: 25 | cells: 128 | layers/slots: counts, data 
+Assay to use: RNA 
+CLDN16 present: FALSE 
+Layer names do not establish normalization scale or raw-count provenance.
+
+METADATA COLUMNS
+       column      type missing
+   orig.ident    factor       0
+   nCount_RNA   numeric       0
+ nFeature_RNA   integer       0
+      cell_id character       0
+     clone_id character       0
+
+SAMPLE-RELATED METADATA VALUES
+
+orig.ident: 1 distinct nonmissing values
+synthetic 
+      128 
+
+CELL OVERLAP
+Seurat object: 128 
+Selected assay: 128 
+Clone table: 128 
+Tree: 128 
+Shared across selected assay/clone table/tree: 128 
+assay IDs outside shared set: 0 
+clone_table IDs outside shared set: 0 
+tree IDs outside shared set: 0 
+
+CLONE COUNTS — SHARED CELLS
+clone
+ A  B  C  D 
+32 32 32 32 
+
+Sample grouping not requested; clone/cell alignment does not require sample IDs.
+
+REVIEW BEFORE NEXT MODULE
+- Clone IDs and cell IDs are the required grouping/alignment identifiers.
+- If sample grouping was requested, confirm its metadata meaning; no samples are inferred.
+- Confirm normalized-expression scale and preprocessing provenance.
+- Review cell overlap losses above; no input was pruned or overwritten.
+- This inspection does not validate every layer-specific cell set or every expression value.
+- Root/support and branch designs belong in Module 2.
+
+INSPECTION COMPLETE — review before running Module 2.

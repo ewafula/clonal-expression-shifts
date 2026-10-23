@@ -1,0 +1,7 @@
+"branch_id"	"contrast"	"descendant_clones"	"comparison_clones"	"inside_equal_clone_mean"	"outside_equal_clone_mean"	"difference"	"clone_weights"	"equivalent_to"	"interpretation"
+"branch_edge_187"	"{B} vs {A,C,D}"	"B"	"A;C;D"	6.57834225824216	6.56260349300428	0.0157387652378782	"A:-0.33333333;B: 1.00000000;C:-0.33333333;D:-0.33333333"	NA	"descriptive equal-clone mean contrast; no confirmatory p-value"
+"branch_edge_188"	"{C} vs {A,B,D}"	"C"	"A;B;D"	6.62505351164655	6.54703307520281	0.0780204364437385	"A:-0.33333333;B:-0.33333333;C: 1.00000000;D:-0.33333333"	NA	"descriptive equal-clone mean contrast; no confirmatory p-value"
+"branch_edge_251"	"{A} vs {B,C,D}"	"A"	"B;C;D"	6.4963877000702	6.5899216790616	-0.0935339789913945	"A: 1.00000000;B:-0.33333333;C:-0.33333333;D:-0.33333333"	NA	"descriptive equal-clone mean contrast; no confirmatory p-value"
+"branch_edge_252"	"{B,C} vs {A,D}"	"B;C"	"A;D"	6.60169788494435	6.53137848368314	0.0703194012612118	"A:-0.5;B: 0.5;C: 0.5;D:-0.5"	NA	"descriptive equal-clone mean contrast; no confirmatory p-value"
+"branch_edge_253"	"{A,B,C} vs {D}"	"A;B;C"	"D"	6.5665944899863	6.56636926729608	0.000225222690220406	"A: 0.33333333;B: 0.33333333;C: 0.33333333;D:-1.00000000"	NA	"descriptive equal-clone mean contrast; no confirmatory p-value"
+"branch_edge_254"	"{D} vs {A,B,C}"	"D"	"A;B;C"	6.56636926729608	6.5665944899863	-0.000225222690220406	"A:-0.33333333;B:-0.33333333;C:-0.33333333;D: 1.00000000"	"branch_edge_253"	"descriptive equal-clone mean contrast; no confirmatory p-value"

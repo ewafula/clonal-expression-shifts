@@ -1,0 +1,15 @@
+"model"	"term"	"full_value"	"effect_type"	"label"	"attempted"	"successful"	"failed"	"not_estimable"	"full_selected"	"selection_frequency"	"positive_frequency"	"negative_frequency"	"sign_consistency_among_nonzero"	"agreement_with_full_sign_among_nonzero"	"median"	"q05"	"q95"	"overlap_neighborhood_frequency"	"n_overlap_neighbors"
+"elastic_net"	"branch_edge_1351"	-1.02381193526964	"penalized branch coefficient"	"branch_edge_1351"	100	100	0	0	TRUE	1	0	1	1	1	-0.944953997067637	-1.02078287153303	-0.867730734615685	NA	NA
+"elastic_net"	"branch_edge_1352"	0	"penalized branch coefficient"	"branch_edge_1352"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	NA	NA
+"elastic_net"	"branch_edge_3019"	0.89199299072454	"penalized branch coefficient"	"branch_edge_3019"	100	100	0	0	TRUE	1	1	0	1	1	0.811266983251292	0.737994811760903	0.903191731767183	NA	NA
+"elastic_net"	"branch_edge_3020"	-0.173534873440893	"penalized branch coefficient"	"branch_edge_3020"	100	100	0	0	TRUE	1	0	1	1	1	-0.176181948100394	-0.219084101663894	-0.119422620991613	NA	NA
+"elastic_net"	"branch_edge_3021"	0	"penalized branch coefficient"	"branch_edge_3021"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	NA	NA
+"linear"	"branch_edge_1351"	-1.33817923589936	"linear basis coefficient"	"branch_edge_1351"	100	100	0	0	NA	NA	0	1	1	1	-1.33063250020923	-1.39591716882857	-1.282832522969	NA	NA
+"linear"	"branch_edge_1352"	-0.149208535137753	"linear basis coefficient"	"branch_edge_1352"	100	100	0	0	NA	NA	0	1	1	1	-0.149575803948486	-0.199964948451996	-0.0796777199923818	NA	NA
+"linear"	"branch_edge_3019"	1.04650426028983	"linear basis coefficient"	"branch_edge_3019"	100	100	0	0	NA	NA	1	0	1	1	1.05126696929337	0.982523799309204	1.10962583148742	NA	NA
+"contrasts"	"branch_edge_1351"	-1.63727781095005	"equal-clone contrast"	"{3} vs {0,14,2}"	100	100	0	0	NA	NA	0	1	1	1	-1.63623681642123	-1.68111207450727	-1.60589527361701	NA	NA
+"contrasts"	"branch_edge_1352"	-0.0519835432679104	"equal-clone contrast"	"{2} vs {0,14,3}"	100	100	0	0	NA	NA	0.06	0.94	0.94	0.94	-0.049016762807284	-0.0915702021428541	0.00317088493616032	NA	NA
+"contrasts"	"branch_edge_3019"	1.54230018396887	"equal-clone contrast"	"{0} vs {14,2,3}"	100	100	0	0	NA	NA	1	0	1	1	1.54209568239566	1.50532918319492	1.57544225270426	NA	NA
+"contrasts"	"branch_edge_3020"	-1.26694601566347	"equal-clone contrast"	"{2,3} vs {0,14}"	100	100	0	0	NA	NA	0	1	1	1	-1.26346110392066	-1.30068297639619	-1.2276682928626	NA	NA
+"contrasts"	"branch_edge_3021"	-0.146961170249093	"equal-clone contrast"	"{0,2,3} vs {14}"	100	100	0	0	NA	NA	0	1	1	1	-0.14328676072534	-0.196398971214521	-0.0875085212415406	NA	NA
+"contrasts"	"branch_edge_3022"	0.146961170249093	"equal-clone contrast"	"{14} vs {0,2,3}"	100	100	0	0	NA	NA	1	0	1	1	0.14328676072534	0.0875085212415406	0.196398971214521	NA	NA

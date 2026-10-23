@@ -1,0 +1,96 @@
+MODULE 4 — COLLAPSED CELL-LEVEL PILOT
+ 2026-10-18 18:50:18 UTC 
+
+Gene: LINC03061 | cells: 1512 | clones: 4 
+Response scale: Normalized expression; log base and preprocessing provenance unverified 
+Clone-balanced weights: inverse clone cell count, rescaled to mean 1.
+Each clone contributes equal total weight. These are balancing, not known precision weights.
+Retained branch predictors: 5 | independent directions: 3 
+
+Elastic Net: alpha=0.5 | lambda.1se=0.07065915 | selected branches=1
+lambda.min: 0.001293584 | lambda.1se: 0.07065915 | folds: 5 
+CV is clone-stratified cell interpolation used for tuning; not held-out-clone/patient validation.
+Fold IDs and tuning out-of-fold predictions are saved, not presented as unbiased final test performance.
+
+Linear basis: branch_edge_1351, branch_edge_1352, branch_edge_3019 
+Basis predictions equal the full clone-mean reference. Basis choice does not identify unique historical shifts.
+
+Explicit contrasts (inside minus outside; equal weight per clone on each side):
+        contrast difference
+ {3} vs {0,14,2} -0.1197728
+ {2} vs {0,14,3}  0.3614951
+ {0} vs {14,2,3} -0.1206795
+ {2,3} vs {0,14}  0.1812917
+ {0,2,3} vs {14}  0.1210427
+ {14} vs {0,2,3} -0.1210427
+Complementary root contrasts are reported in both biological orientations and are redundant sign reversals.
+Contrasts differ from simultaneous Elastic Net coefficients and linear basis coefficients.
+
+Training fit metrics:
+                 model n_cells n_clones weighted_rmse weighted_mae
+        intercept_only    1512        4     0.2367036   0.15361364
+ clone_means_reference    1512        4     0.1775562   0.07694923
+           elastic_net    1512        4     0.1847553   0.09772572
+                linear    1512        4     0.1775562   0.07694923
+ weighted_r_squared_apparent      rmse        mae r_squared_apparent
+                   0.0000000 0.2225284 0.14531031        -0.00318282
+                   0.4373192 0.1650614 0.06711402         0.44804931
+                   0.3907661 0.1721056 0.08903459         0.39993397
+                   0.4373192 0.1650614 0.06711402         0.44804931
+                               evaluation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+
+LIMITATIONS
+- Training fit and tuning CV do not establish independent biological replication.
+- Cells may be dependent; no naive cell-level p-values or confidence intervals are supplied.
+- No sample/site covariates are fitted in this pilot; confounding is not resolved by balancing.
+- Response units are not automatically log2FC. Root/support limitations remain.
+- Stability assessment and compatible-likelihood AIC/BIC comparisons belong to Module 5.
+
+Options used:
+$expression
+[1] "results/module03.expression.rds"
+
+$tree_designs
+[1] "results/module02.tree_designs.rds"
+
+$gene
+[1] "LINC03061"
+
+$model
+[1] "all"
+
+$alpha
+[1] 0.5
+
+$nfolds
+[1] 5
+
+$lambda_choice
+[1] "lambda.1se"
+
+$seed
+[1] 12345
+
+$output_prefix
+[1] "results/module07/LINC03061/LINC03061_collapsed_attempt1"
+
+$help
+[1] FALSE
+
+
+Files to return:
+results/module07/LINC03061/LINC03061_collapsed_attempt1.report.txt
+results/module07/LINC03061/LINC03061_collapsed_attempt1.coefficients.tsv
+results/module07/LINC03061/LINC03061_collapsed_attempt1.contrasts.tsv
+results/module07/LINC03061/LINC03061_collapsed_attempt1.fit_metrics.tsv
+results/module07/LINC03061/LINC03061_collapsed_attempt1.cell_predictions.tsv.gz
+results/module07/LINC03061/LINC03061_collapsed_attempt1.models.rds
+results/module07/LINC03061/LINC03061_collapsed_attempt1.comparison.png
+results/module07/LINC03061/LINC03061_collapsed_attempt1.selected_tree.png 
+
+COLLAPSED FIT COMPLETE — run 05_validate_models.R on the saved pilot for validation.
+Report: results/module07/LINC03061/LINC03061_collapsed_attempt1.report.txt

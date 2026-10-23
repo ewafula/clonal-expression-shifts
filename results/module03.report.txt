@@ -1,0 +1,87 @@
+MODULE 3 — CANDIDATE GENES AND EXPRESSION
+ 2026-10-18 16:57:19 UTC 
+
+Original DEG filters/ranking reused; no fitting, imputation, or normalization.
+Input DEG rows: 32353 | unique genes: 13810 
+Passing rows: 15889 | candidate genes: 9612 
+Original priority score is a ranking heuristic, not a significance test.
+
+Loading Seurat expression once; retaining Module 2 cell order.
+
+Gene preparation status:
+
+ready 
+  100 
+
+Prepared expression: 100 genes x 1512 cells
+Expression class: dgCMatrix 
+Assay/layer: RNA / data 
+Response scale: Normalized expression; log base and preprocessing provenance unverified 
+Zeros preserved; no imputation or transformation. Regression coefficients are not automatically DEG log2FC.
+Expression uses exact Module 2 cell order for both tree modes.
+
+Top-ranked candidates (up to 10):
+# A tibble: 10 × 3
+   candidate_rank gene    candidate_priority_score
+            <int> <chr>                      <dbl>
+ 1              1 CLDN16                      43.9
+ 2              2 DPEP3                       37.3
+ 3              3 IL1RAP                      32.7
+ 4              4 NLGN1                       29.6
+ 5              5 PAGE2B                      28.4
+ 6              6 H19                         27.6
+ 7              7 OPCML                       26.9
+ 8              8 TFPI2                       26.2
+ 9              9 CD74                        25.5
+10             10 L3MBTL4                     24.6
+
+Options used:
+$seurat_object
+[1] "inputs/SPECTRUM-cell-ploidy-prediction.rds"
+
+$tree_designs
+[1] "results/module02.tree_designs.rds"
+
+$deg_file
+[1] "inputs/all_samples.by_clone.deg.tsv.gz"
+
+$assay
+[1] "RNA"
+
+$layer
+[1] "data"
+
+$cell_column
+[1] "cell_id"
+
+$padj_threshold
+[1] 0.05
+
+$logfc_threshold
+[1] 0.5
+
+$pct1_threshold
+[1] 0.1
+
+$top_n
+[1] 100
+
+$expression_scale
+[1] "Normalized expression; log base and preprocessing provenance unverified"
+
+$output_prefix
+[1] "results/module03"
+
+$help
+[1] FALSE
+
+
+Files to return:
+results/module03.report.txt
+results/module03.candidate_genes.tsv
+results/module03.filtered_deg.tsv.gz
+results/module03.gene_qc.tsv
+results/module03.clone_expression_summary.tsv
+results/module03.expression.rds 
+
+EXPRESSION PREPARATION COMPLETE — review before running Module 4.

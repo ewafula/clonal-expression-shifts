@@ -1,0 +1,95 @@
+MODULE 4 — COLLAPSED CELL-LEVEL PILOT
+ 2026-10-18 21:23:50 UTC 
+
+Gene: DEMO-WITHIN-B | cells: 128 | clones: 4 
+Response scale: Natural-log log1p(count/library total*10000); synthetic tutorial 
+Clone-balanced weights: inverse clone cell count, rescaled to mean 1.
+Each clone contributes equal total weight. These are balancing, not known precision weights.
+Retained branch predictors: 5 | independent directions: 3 
+
+Elastic Net: alpha=0.5 | lambda.1se=1.369125 | selected branches=1
+lambda.min: 0.256549 | lambda.1se: 1.369125 | folds: 5 
+CV is clone-stratified cell interpolation used for tuning; not held-out-clone/patient validation.
+Fold IDs and tuning out-of-fold predictions are saved, not presented as unbiased final test performance.
+
+Linear basis: branch_edge_187, branch_edge_188, branch_edge_251 
+Basis predictions equal the full clone-mean reference. Basis choice does not identify unique historical shifts.
+
+Explicit contrasts (inside minus outside; equal weight per clone on each side):
+       contrast difference
+ {B} vs {A,C,D}  2.0898951
+ {C} vs {A,B,D} -1.0087357
+ {A} vs {B,C,D} -0.5817089
+ {B,C} vs {A,D}  0.8108696
+ {A,B,C} vs {D}  0.4994505
+ {D} vs {A,B,C} -0.4994505
+Complementary root contrasts are reported in both biological orientations and are redundant sign reversals.
+Contrasts differ from simultaneous Elastic Net coefficients and linear basis coefficients.
+
+Training fit metrics:
+                 model n_cells n_clones weighted_rmse weighted_mae
+        intercept_only     128        4      2.610084     2.384758
+ clone_means_reference     128        4      2.443886     2.252351
+           elastic_net     128        4      2.554804     2.356407
+                linear     128        4      2.443886     2.252351
+ weighted_r_squared_apparent     rmse      mae r_squared_apparent
+                  0.00000000 2.610084 2.384758         0.00000000
+                  0.12329608 2.443886 2.252351         0.12329608
+                  0.04191072 2.554804 2.356407         0.04191072
+                  0.12329608 2.443886 2.252351         0.12329608
+                               evaluation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+
+LIMITATIONS
+- Training fit and tuning CV do not establish independent biological replication.
+- Cells may be dependent; no naive cell-level p-values or confidence intervals are supplied.
+- No sample/site covariates are fitted in this pilot; confounding is not resolved by balancing.
+- Response units are not automatically log2FC. Root/support limitations remain.
+- Stability assessment and compatible-likelihood AIC/BIC comparisons belong to Module 5.
+
+Options used:
+$expression
+[1] "results/tutorial/module03.expression.rds"
+
+$tree_designs
+[1] "results/tutorial/module02.tree_designs.rds"
+
+$gene
+[1] "DEMO-WITHIN-B"
+
+$model
+[1] "all"
+
+$alpha
+[1] 0.5
+
+$nfolds
+[1] 5
+
+$lambda_choice
+[1] "lambda.1se"
+
+$seed
+[1] 12345
+
+$output_prefix
+[1] "results/tutorial/module07/DEMO-WITHIN-B/DEMO-WITHIN-B_collapsed_attempt1"
+
+$help
+[1] FALSE
+
+
+Files to return:
+results/tutorial/module07/DEMO-WITHIN-B/DEMO-WITHIN-B_collapsed_attempt1.report.txt
+results/tutorial/module07/DEMO-WITHIN-B/DEMO-WITHIN-B_collapsed_attempt1.coefficients.tsv
+results/tutorial/module07/DEMO-WITHIN-B/DEMO-WITHIN-B_collapsed_attempt1.contrasts.tsv
+results/tutorial/module07/DEMO-WITHIN-B/DEMO-WITHIN-B_collapsed_attempt1.fit_metrics.tsv
+results/tutorial/module07/DEMO-WITHIN-B/DEMO-WITHIN-B_collapsed_attempt1.cell_predictions.tsv.gz
+results/tutorial/module07/DEMO-WITHIN-B/DEMO-WITHIN-B_collapsed_attempt1.models.rds
+results/tutorial/module07/DEMO-WITHIN-B/DEMO-WITHIN-B_collapsed_attempt1.comparison.png
+results/tutorial/module07/DEMO-WITHIN-B/DEMO-WITHIN-B_collapsed_attempt1.selected_tree.png 
+
+COLLAPSED FIT COMPLETE — run 05_validate_models.R on the saved pilot for validation.

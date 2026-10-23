@@ -1,0 +1,6 @@
+"gene"	"mean"	"fraction_nonzero"	"sd"	"clone_mean_range"	"selection_reason"	"panel_index"	"gene_directory"
+"DEMO-CLONE-A"	5.23081892768405	0.8984375	2.01058690370136	2.98935992786221	"user-specified prepared gene"	1	"results/tutorial/module07/DEMO-CLONE-A"
+"DEMO-CLONE-C-SPARSE"	1.02370616092531	0.2109375	2.00144700009013	3.95964303163607	"user-specified prepared gene"	2	"results/tutorial/module07/DEMO-CLONE-C-SPARSE"
+"DEMO-WITHIN-B"	3.31792414007832	0.640625	2.62034016554227	2.3239731137644	"user-specified prepared gene"	3	"results/tutorial/module07/DEMO-WITHIN-B"
+"DEMO-BROAD"	6.56653818431375	1	0.297005513303526	0.12866581157635	"user-specified prepared gene"	4	"results/tutorial/module07/DEMO-BROAD"
+"DEMO-WEAK"	0.660402252207506	0.1484375	1.58916795751875	0.408549356651322	"user-specified prepared gene"	5	"results/tutorial/module07/DEMO-WEAK"

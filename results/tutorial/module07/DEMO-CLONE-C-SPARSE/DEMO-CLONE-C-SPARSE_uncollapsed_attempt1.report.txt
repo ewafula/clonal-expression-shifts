@@ -1,0 +1,107 @@
+MODULE 6 — EXPLORATORY UNCOLLAPSED CELL-LEVEL PILOT
+ 2026-10-18 21:23:42 UTC 
+
+Gene: DEMO-CLONE-C-SPARSE | cells: 128 | clones: 4 
+Response scale: Natural-log log1p(count/library total*10000); synthetic tutorial 
+Clone-balanced weights: inverse clone cell count, rescaled to mean 1.
+Each clone contributes equal total weight. These are balancing, not known precision weights.
+Retained branch predictors: 29 | independent directions: 15 
+
+Elastic Net: alpha=0.5 | lambda.1se=0.6352481 | selected branches=3
+lambda.min: 0.2505549 | lambda.1se: 0.6352481 | folds: 5 
+CV is clone-stratified cell interpolation used for tuning; not held-out-clone/patient validation.
+Fold IDs and tuning out-of-fold predictions are saved, not presented as unbiased final test performance.
+
+Linear basis: branch_edge_29, branch_edge_30, branch_edge_59, branch_edge_60, branch_edge_91, branch_edge_92, branch_edge_121, branch_edge_122, branch_edge_153, branch_edge_154, branch_edge_183, branch_edge_184, branch_edge_217, branch_edge_218, branch_edge_247 
+Linear basis spans the eligible cellular partitions; lower training error can reflect extra flexibility. Basis coefficients do not identify unique shifts.
+
+Within-clone contrast availability:
+
+   insufficient_cells no_within_clone_split                 ready 
+                   32                   184                    16 
+Sister comparisons use other children of the immediate cellular parent, restricted to the same clone.
+No sample/site adjustment or confirmatory p-values; small or unsplit groups have no estimated difference.
+
+Selected EN branch classes (complete clone partitions versus within-clone splits):
+complete_clones_only
+FALSE  TRUE 
+    1     2 
+            term coefficient n_descendant_cells descendant_clones
+ branch_edge_124  0.49374030                 16                 C
+ branch_edge_188  2.51566627                 32                 C
+ branch_edge_252  0.02665012                 64               B;C
+ splits_within_clone
+                TRUE
+               FALSE
+               FALSE
+
+Training fit metrics:
+                 model n_cells n_clones weighted_rmse weighted_mae
+        intercept_only     128        4      1.993614    1.6155363
+ clone_means_reference     128        4      1.047954    0.4366951
+           elastic_net     128        4      1.148454    0.7712809
+                linear     128        4      1.027382    0.4208153
+ weighted_r_squared_apparent     rmse       mae r_squared_apparent
+                   0.0000000 1.993614 1.6155363          0.0000000
+                   0.7236863 1.047954 0.4366951          0.7236863
+                   0.6681472 1.148454 0.7712809          0.6681472
+                   0.7344282 1.027382 0.4208153          0.7344282
+                               evaluation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+
+LIMITATIONS
+- Training fit and tuning CV do not establish independent biological replication.
+- Cells may be dependent; no naive cell-level p-values or confidence intervals are supplied.
+- No sample/site covariates are fitted in this pilot; confounding is not resolved by balancing.
+- Response units are not automatically log2FC. Root/support limitations remain.
+- Use the shared Module 5 validator with this pilot for stability and bounded working-likelihood comparisons.
+
+Options used:
+$expression
+[1] "results/tutorial/module03.expression.rds"
+
+$tree_designs
+[1] "results/tutorial/module02.tree_designs.rds"
+
+$gene
+[1] "DEMO-CLONE-C-SPARSE"
+
+$model
+[1] "all"
+
+$alpha
+[1] 0.5
+
+$nfolds
+[1] 5
+
+$lambda_choice
+[1] "lambda.1se"
+
+$seed
+[1] 12345
+
+$min_contrast_cells
+[1] 10
+
+$output_prefix
+[1] "results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_uncollapsed_attempt1"
+
+$help
+[1] FALSE
+
+
+Files to return:
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_uncollapsed_attempt1.report.txt
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_uncollapsed_attempt1.coefficients.tsv
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_uncollapsed_attempt1.contrasts.tsv
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_uncollapsed_attempt1.fit_metrics.tsv
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_uncollapsed_attempt1.cell_predictions.tsv.gz
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_uncollapsed_attempt1.models.rds
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_uncollapsed_attempt1.comparison.png
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_uncollapsed_attempt1.selected_tree.png 
+
+UNCOLLAPSED FIT COMPLETE — run 05_validate_models.R on the saved pilot for validation.

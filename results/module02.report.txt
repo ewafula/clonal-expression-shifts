@@ -1,0 +1,80 @@
+MODULE 2 — TREE PREPARATION
+ 2026-10-18 16:29:41 UTC 
+
+Source: original branch traversal, filtering, and sparse descendant encoding.
+No Seurat RDS loaded; expression-to-tree alignment is rechecked when expression is prepared.
+Using supplied root; no rerooting or branch-support threshold imposed.
+
+Input tree tips: 1512 
+Clone-table cells: 1512 
+Tree tips outside retained clone cells: 0 
+Clones excluded by size: none 
+ clone_id n_cells mrca_node n_cells_below_mrca monophyletic mrca_label_raw
+        0     834      1515                834         TRUE          0.792
+       14     244      2781                244         TRUE          0.977
+        2     326      2456                326         TRUE          0.553
+        3     108      2349                108         TRUE          0.989
+
+Collapsed clone-level matrix (binary descendant membership):
+   branch_edge_1351 branch_edge_1352 branch_edge_3019 branch_edge_3020
+0                 0                0                1                0
+14                0                0                0                0
+2                 0                1                0                1
+3                 1                0                0                1
+   branch_edge_3021
+0                 1
+14                0
+2                 1
+3                 1
+Collapsed predictors: 5 | independent branch directions: 3 
+Linear-model basis: branch_edge_1351, branch_edge_1352, branch_edge_3019 
+Other retained branches may be linearly dependent; penalized selection does not establish unique historical shifts.
+
+Uncollapsed original-filter candidates: 110 | after duplicate/complement checks: 109 | rank with intercept: 78 
+Uncollapsed within-clone predictors remain exploratory on this supplied topology.
+
+Retained tree tips: 1512 | edges: 3022 | internal nodes: 1511 
+Root node in saved tree: 1513 
+Raw internal labels: present; inspect branches.tsv 
+Node/edge IDs refer ONLY to the saved pruned tree, not to differently ordered input files.
+Branch membership is stable through saved descendant cell sets, not renumbering after resampling.
+No support threshold applied: supported biological resolution requires root/support provenance review.
+
+Options used:
+$concordant_clones
+[1] "inputs/MERGED.Ovarian-cancer.fasttree.manifold.concordant.clones.tsv.gz"
+
+$clonal_tree
+[1] "inputs/MERGED.Ovarian-cancer.fasttree.manifold.clone.treefile"
+
+$tree_mode
+[1] "both"
+
+$output_prefix
+[1] "results/module02"
+
+$min_cells_per_clone
+[1] 10
+
+$min_descendant_cells
+[1] 25
+
+$max_descendant_fraction
+[1] 0.9
+
+$internal_edges_only
+[1] "TRUE"
+
+$help
+[1] FALSE
+
+
+Output files:
+results/module02.report.txt
+results/module02.clone_checks.tsv
+results/module02.branches.tsv
+results/module02.tree_designs.rds
+results/module02.collapsed_tree.nwk
+results/module02.collapsed_tree.png 
+
+TREE PREPARATION COMPLETE — review before running Module 3.

@@ -1,0 +1,105 @@
+MODULE 6 — EXPLORATORY UNCOLLAPSED CELL-LEVEL PILOT
+ 2026-10-18 20:47:34 UTC 
+
+Gene: DEMO-CLONE-A | cells: 128 | clones: 4 
+Response scale: Natural-log log1p(count/library total*10000); synthetic tutorial 
+Clone-balanced weights: inverse clone cell count, rescaled to mean 1.
+Each clone contributes equal total weight. These are balancing, not known precision weights.
+Retained branch predictors: 29 | independent directions: 15 
+
+Elastic Net: alpha=0.5 | lambda.1se=1.113111 | selected branches=2
+lambda.min: 0.3321131 | lambda.1se: 1.113111 | folds: 5 
+CV is clone-stratified cell interpolation used for tuning; not held-out-clone/patient validation.
+Fold IDs and tuning out-of-fold predictions are saved, not presented as unbiased final test performance.
+
+Linear basis: branch_edge_29, branch_edge_30, branch_edge_59, branch_edge_60, branch_edge_91, branch_edge_92, branch_edge_121, branch_edge_122, branch_edge_153, branch_edge_154, branch_edge_183, branch_edge_184, branch_edge_217, branch_edge_218, branch_edge_247 
+Linear basis spans the eligible cellular partitions; lower training error can reflect extra flexibility. Basis coefficients do not identify unique shifts.
+
+Within-clone contrast availability:
+
+   insufficient_cells no_within_clone_split                 ready 
+                   32                   184                    16 
+Sister comparisons use other children of the immediate cellular parent, restricted to the same clone.
+No sample/site adjustment or confirmatory p-values; small or unsplit groups have no estimated difference.
+
+Selected EN branch classes (complete clone partitions versus within-clone splits):
+complete_clones_only
+FALSE  TRUE 
+    1     1 
+            term coefficient n_descendant_cells descendant_clones
+  branch_edge_92   -0.199574                  8                 C
+ branch_edge_251    1.098296                 32                 A
+ splits_within_clone
+                TRUE
+               FALSE
+
+Training fit metrics:
+                 model n_cells n_clones weighted_rmse weighted_mae
+        intercept_only     128        4      2.002718    1.3332151
+ clone_means_reference     128        4      1.611429    1.0150638
+           elastic_net     128        4      1.750821    1.1485308
+                linear     128        4      1.510866    0.9531768
+ weighted_r_squared_apparent     rmse       mae r_squared_apparent
+                   0.0000000 2.002718 1.3332151          0.0000000
+                   0.3525851 1.611429 1.0150638          0.3525851
+                   0.2357347 1.750821 1.1485308          0.2357347
+                   0.4308691 1.510866 0.9531768          0.4308691
+                               evaluation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+
+LIMITATIONS
+- Training fit and tuning CV do not establish independent biological replication.
+- Cells may be dependent; no naive cell-level p-values or confidence intervals are supplied.
+- No sample/site covariates are fitted in this pilot; confounding is not resolved by balancing.
+- Response units are not automatically log2FC. Root/support limitations remain.
+- Use the shared Module 5 validator with this pilot for stability and bounded working-likelihood comparisons.
+
+Options used:
+$expression
+[1] "results/tutorial/module03.expression.rds"
+
+$tree_designs
+[1] "results/tutorial/module02.tree_designs.rds"
+
+$gene
+[1] "DEMO-CLONE-A"
+
+$model
+[1] "all"
+
+$alpha
+[1] 0.5
+
+$nfolds
+[1] 5
+
+$lambda_choice
+[1] "lambda.1se"
+
+$seed
+[1] 12345
+
+$min_contrast_cells
+[1] 10
+
+$output_prefix
+[1] "results/tutorial/module06"
+
+$help
+[1] FALSE
+
+
+Files to return:
+results/tutorial/module06.report.txt
+results/tutorial/module06.coefficients.tsv
+results/tutorial/module06.contrasts.tsv
+results/tutorial/module06.fit_metrics.tsv
+results/tutorial/module06.cell_predictions.tsv.gz
+results/tutorial/module06.models.rds
+results/tutorial/module06.comparison.png
+results/tutorial/module06.selected_tree.png 
+
+UNCOLLAPSED FIT COMPLETE — run 05_validate_models.R on the saved pilot for validation.

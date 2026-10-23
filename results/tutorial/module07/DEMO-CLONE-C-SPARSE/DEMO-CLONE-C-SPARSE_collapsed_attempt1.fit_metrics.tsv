@@ -1,0 +1,5 @@
+"model"	"n_cells"	"n_clones"	"weighted_rmse"	"weighted_mae"	"weighted_r_squared_apparent"	"rmse"	"mae"	"r_squared_apparent"	"evaluation"
+"intercept_only"	128	4	1.99361351797661	1.61553628521025	0	1.99361351797661	1.61553628521025	0	"training fit; not independent validation"
+"clone_means_reference"	128	4	1.04795391664871	0.43669512755994	0.723686292129372	1.04795391664871	0.43669512755994	0.723686292129372	"training fit; not independent validation"
+"elastic_net"	128	4	1.10897801247889	0.688854526894279	0.690568921140135	1.10897801247889	0.688854526894279	0.690568921140135	"training fit; not independent validation"
+"linear"	128	4	1.04795391664871	0.436695127559941	0.723686292129372	1.04795391664871	0.436695127559941	0.723686292129372	"training fit; not independent validation"

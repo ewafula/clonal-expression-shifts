@@ -1,0 +1,76 @@
+MODULE 3 — CANDIDATE GENES AND EXPRESSION
+ 2026-10-18 20:36:53 UTC 
+
+Original DEG filters/ranking reused; no fitting, imputation, or normalization.
+No DEG table available: preparing explicitly supplied genes without DEG selection.
+
+Loading Seurat expression once; retaining Module 2 cell order.
+
+Gene preparation status:
+
+ready 
+    5 
+
+Prepared expression: 5 genes x 128 cells
+Expression class: dgCMatrix 
+Assay/layer: RNA / data 
+Response scale: Natural-log log1p(count/library total*10000); synthetic tutorial 
+Zeros preserved; no imputation or transformation. Regression coefficients are not automatically DEG log2FC.
+Expression uses exact Module 2 cell order for both tree modes.
+
+Top-ranked candidates (up to 10):
+[1] candidate_rank gene          
+<0 rows> (or 0-length row.names)
+
+Options used:
+$seurat_object
+[1] "inputs/tutorial/expression.rds"
+
+$tree_designs
+[1] "results/tutorial/module02.tree_designs.rds"
+
+$deg_file
+[1] "inputs/tutorial/not_supplied.tsv"
+
+$assay
+[1] "RNA"
+
+$layer
+[1] "data"
+
+$cell_column
+[1] "cell_id"
+
+$padj_threshold
+[1] 0.05
+
+$logfc_threshold
+[1] 0.5
+
+$pct1_threshold
+[1] 0.1
+
+$top_n
+[1] 100
+
+$gene_list
+[1] "inputs/tutorial/genes.txt"
+
+$expression_scale
+[1] "Natural-log log1p(count/library total*10000); synthetic tutorial"
+
+$output_prefix
+[1] "results/tutorial/module03"
+
+$help
+[1] FALSE
+
+
+Files to return:
+results/tutorial/module03.report.txt
+results/tutorial/module03.candidate_genes.tsv
+results/tutorial/module03.gene_qc.tsv
+results/tutorial/module03.clone_expression_summary.tsv
+results/tutorial/module03.expression.rds 
+
+EXPRESSION PREPARATION COMPLETE — review before running Module 4.

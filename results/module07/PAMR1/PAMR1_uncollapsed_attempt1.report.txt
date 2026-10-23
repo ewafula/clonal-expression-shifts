@@ -1,0 +1,107 @@
+MODULE 6 — EXPLORATORY UNCOLLAPSED CELL-LEVEL PILOT
+ 2026-10-18 18:48:56 UTC 
+
+Gene: PAMR1 | cells: 1512 | clones: 4 
+Response scale: Normalized expression; log base and preprocessing provenance unverified 
+Clone-balanced weights: inverse clone cell count, rescaled to mean 1.
+Each clone contributes equal total weight. These are balancing, not known precision weights.
+Retained branch predictors: 109 | independent directions: 77 
+
+Elastic Net: alpha=0.5 | lambda.1se=0.1904573 | selected branches=3
+lambda.min: 0.06236617 | lambda.1se: 0.1904573 | folds: 5 
+CV is clone-stratified cell interpolation used for tuning; not held-out-clone/patient validation.
+Fold IDs and tuning out-of-fold predictions are saved, not presented as unbiased final test performance.
+
+Linear basis: branch_edge_67, branch_edge_202, branch_edge_203, branch_edge_269, branch_edge_270, branch_edge_442, branch_edge_443, branch_edge_474, branch_edge_475, branch_edge_477, branch_edge_479, branch_edge_481, branch_edge_485, branch_edge_486, branch_edge_813, branch_edge_814, branch_edge_817, branch_edge_818, branch_edge_952, branch_edge_953, branch_edge_1059, branch_edge_1060, branch_edge_1062, branch_edge_1064, branch_edge_1099, branch_edge_1116, branch_edge_1117, branch_edge_1119, branch_edge_1124, branch_edge_1134, branch_edge_1135, branch_edge_1279, branch_edge_1281, branch_edge_1282, branch_edge_1335, branch_edge_1339, branch_edge_1350, branch_edge_1351, branch_edge_1352, branch_edge_1610, branch_edge_1673, branch_edge_1674, branch_edge_1763, branch_edge_1819, branch_edge_1820, branch_edge_1899, branch_edge_1901, branch_edge_2047, branch_edge_2060, branch_edge_2061, branch_edge_2062, branch_edge_2064, branch_edge_2221, branch_edge_2223, branch_edge_2224, branch_edge_2340, branch_edge_2341, branch_edge_2362, branch_edge_2481, branch_edge_2482, branch_edge_2484, branch_edge_2487, branch_edge_2574, branch_edge_2631, branch_edge_2632, branch_edge_2743, branch_edge_2744, branch_edge_2835, branch_edge_2836, branch_edge_2994, branch_edge_2995, branch_edge_2996, branch_edge_3008, branch_edge_3011, branch_edge_3012, branch_edge_3015, branch_edge_3017 
+Linear basis spans the eligible cellular partitions; lower training error can reflect extra flexibility. Basis coefficients do not identify unique shifts.
+
+Within-clone contrast availability:
+
+   insufficient_cells no_within_clone_split                 ready 
+                   21                   664                   187 
+Sister comparisons use other children of the immediate cellular parent, restricted to the same clone.
+No sample/site adjustment or confirmatory p-values; small or unsplit groups have no estimated difference.
+
+Selected EN branch classes (complete clone partitions versus within-clone splits):
+complete_clones_only
+FALSE  TRUE 
+    2     1 
+             term coefficient n_descendant_cells descendant_clones
+ branch_edge_1339  0.07647877                 99                 3
+ branch_edge_1350  0.09289658                103                 3
+ branch_edge_1351  0.18795565                108                 3
+ splits_within_clone
+                TRUE
+                TRUE
+               FALSE
+
+Training fit metrics:
+                 model n_cells n_clones weighted_rmse weighted_mae
+        intercept_only    1512        4     0.3945461    0.2578217
+ clone_means_reference    1512        4     0.2923162    0.1274224
+           elastic_net    1512        4     0.3149028    0.1780820
+                linear    1512        4     0.2871916    0.1252318
+ weighted_r_squared_apparent      rmse        mae r_squared_apparent
+                   0.0000000 0.2517998 0.18651229         -0.2309682
+                   0.4510782 0.1633516 0.04307720          0.4819367
+                   0.3629734 0.1836278 0.10338114          0.3453440
+                   0.4701560 0.1603932 0.04206046          0.5005314
+                               evaluation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+
+LIMITATIONS
+- Training fit and tuning CV do not establish independent biological replication.
+- Cells may be dependent; no naive cell-level p-values or confidence intervals are supplied.
+- No sample/site covariates are fitted in this pilot; confounding is not resolved by balancing.
+- Response units are not automatically log2FC. Root/support limitations remain.
+- Use the shared Module 5 validator with this pilot for stability and bounded working-likelihood comparisons.
+
+Options used:
+$expression
+[1] "results/module03.expression.rds"
+
+$tree_designs
+[1] "results/module02.tree_designs.rds"
+
+$gene
+[1] "PAMR1"
+
+$model
+[1] "all"
+
+$alpha
+[1] 0.5
+
+$nfolds
+[1] 5
+
+$lambda_choice
+[1] "lambda.1se"
+
+$seed
+[1] 12345
+
+$min_contrast_cells
+[1] 10
+
+$output_prefix
+[1] "results/module07/PAMR1/PAMR1_uncollapsed_attempt1"
+
+$help
+[1] FALSE
+
+
+Files to return:
+results/module07/PAMR1/PAMR1_uncollapsed_attempt1.report.txt
+results/module07/PAMR1/PAMR1_uncollapsed_attempt1.coefficients.tsv
+results/module07/PAMR1/PAMR1_uncollapsed_attempt1.contrasts.tsv
+results/module07/PAMR1/PAMR1_uncollapsed_attempt1.fit_metrics.tsv
+results/module07/PAMR1/PAMR1_uncollapsed_attempt1.cell_predictions.tsv.gz
+results/module07/PAMR1/PAMR1_uncollapsed_attempt1.models.rds
+results/module07/PAMR1/PAMR1_uncollapsed_attempt1.comparison.png
+results/module07/PAMR1/PAMR1_uncollapsed_attempt1.selected_tree.png 
+
+UNCOLLAPSED FIT COMPLETE — run 05_validate_models.R on the saved pilot for validation.

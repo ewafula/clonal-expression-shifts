@@ -1,0 +1,5 @@
+"clone_id"	"n_cells"	"mrca_node"	"n_cells_below_mrca"	"monophyletic"	"mrca_label_raw"
+"A"	32	131	32	TRUE	NA
+"B"	32	163	32	TRUE	NA
+"C"	32	194	32	TRUE	NA
+"D"	32	225	32	TRUE	NA

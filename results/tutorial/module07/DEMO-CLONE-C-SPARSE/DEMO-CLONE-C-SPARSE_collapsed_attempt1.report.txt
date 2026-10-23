@@ -1,0 +1,95 @@
+MODULE 4 — COLLAPSED CELL-LEVEL PILOT
+ 2026-10-18 21:23:35 UTC 
+
+Gene: DEMO-CLONE-C-SPARSE | cells: 128 | clones: 4 
+Response scale: Natural-log log1p(count/library total*10000); synthetic tutorial 
+Clone-balanced weights: inverse clone cell count, rescaled to mean 1.
+Each clone contributes equal total weight. These are balancing, not known precision weights.
+Retained branch predictors: 5 | independent directions: 3 
+
+Elastic Net: alpha=0.5 | lambda.1se=0.4378519 | selected branches=2
+lambda.min: 0.01276361 | lambda.1se: 0.4378519 | folds: 5 
+CV is clone-stratified cell interpolation used for tuning; not held-out-clone/patient validation.
+Fold IDs and tuning out-of-fold predictions are saved, not presented as unbiased final test performance.
+
+Linear basis: branch_edge_187, branch_edge_188, branch_edge_251 
+Basis predictions equal the full clone-mean reference. Basis choice does not identify unique historical shifts.
+
+Explicit contrasts (inside minus outside; equal weight per clone on each side):
+       contrast difference
+ {B} vs {A,C,D}  -1.184699
+ {C} vs {A,B,D}   3.914582
+ {A} vs {B,C,D}  -1.364942
+ {B,C} vs {A,D}   2.047412
+ {A,B,C} vs {D}   1.364942
+ {D} vs {A,B,C}  -1.364942
+Complementary root contrasts are reported in both biological orientations and are redundant sign reversals.
+Contrasts differ from simultaneous Elastic Net coefficients and linear basis coefficients.
+
+Training fit metrics:
+                 model n_cells n_clones weighted_rmse weighted_mae
+        intercept_only     128        4      1.993614    1.6155363
+ clone_means_reference     128        4      1.047954    0.4366951
+           elastic_net     128        4      1.108978    0.6888545
+                linear     128        4      1.047954    0.4366951
+ weighted_r_squared_apparent     rmse       mae r_squared_apparent
+                   0.0000000 1.993614 1.6155363          0.0000000
+                   0.7236863 1.047954 0.4366951          0.7236863
+                   0.6905689 1.108978 0.6888545          0.6905689
+                   0.7236863 1.047954 0.4366951          0.7236863
+                               evaluation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+ training fit; not independent validation
+
+LIMITATIONS
+- Training fit and tuning CV do not establish independent biological replication.
+- Cells may be dependent; no naive cell-level p-values or confidence intervals are supplied.
+- No sample/site covariates are fitted in this pilot; confounding is not resolved by balancing.
+- Response units are not automatically log2FC. Root/support limitations remain.
+- Stability assessment and compatible-likelihood AIC/BIC comparisons belong to Module 5.
+
+Options used:
+$expression
+[1] "results/tutorial/module03.expression.rds"
+
+$tree_designs
+[1] "results/tutorial/module02.tree_designs.rds"
+
+$gene
+[1] "DEMO-CLONE-C-SPARSE"
+
+$model
+[1] "all"
+
+$alpha
+[1] 0.5
+
+$nfolds
+[1] 5
+
+$lambda_choice
+[1] "lambda.1se"
+
+$seed
+[1] 12345
+
+$output_prefix
+[1] "results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_collapsed_attempt1"
+
+$help
+[1] FALSE
+
+
+Files to return:
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_collapsed_attempt1.report.txt
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_collapsed_attempt1.coefficients.tsv
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_collapsed_attempt1.contrasts.tsv
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_collapsed_attempt1.fit_metrics.tsv
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_collapsed_attempt1.cell_predictions.tsv.gz
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_collapsed_attempt1.models.rds
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_collapsed_attempt1.comparison.png
+results/tutorial/module07/DEMO-CLONE-C-SPARSE/DEMO-CLONE-C-SPARSE_collapsed_attempt1.selected_tree.png 
+
+COLLAPSED FIT COMPLETE — run 05_validate_models.R on the saved pilot for validation.

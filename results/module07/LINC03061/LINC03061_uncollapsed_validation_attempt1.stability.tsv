@@ -1,0 +1,374 @@
+"model"	"term"	"full_value"	"effect_type"	"label"	"attempted"	"successful"	"failed"	"not_estimable"	"full_selected"	"selection_frequency"	"positive_frequency"	"negative_frequency"	"sign_consistency_among_nonzero"	"agreement_with_full_sign_among_nonzero"	"median"	"q05"	"q95"	"overlap_neighborhood_frequency"	"n_overlap_neighbors"
+"elastic_net"	"branch_edge_67"	0	"penalized branch coefficient"	"branch_edge_67"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_202"	0	"penalized branch coefficient"	"branch_edge_202"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_203"	0	"penalized branch coefficient"	"branch_edge_203"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_269"	0	"penalized branch coefficient"	"branch_edge_269"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_270"	0	"penalized branch coefficient"	"branch_edge_270"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_442"	0	"penalized branch coefficient"	"branch_edge_442"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_443"	0	"penalized branch coefficient"	"branch_edge_443"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_474"	0	"penalized branch coefficient"	"branch_edge_474"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_475"	0	"penalized branch coefficient"	"branch_edge_475"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_477"	0	"penalized branch coefficient"	"branch_edge_477"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_479"	0	"penalized branch coefficient"	"branch_edge_479"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_481"	0	"penalized branch coefficient"	"branch_edge_481"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_482"	0	"penalized branch coefficient"	"branch_edge_482"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_483"	0	"penalized branch coefficient"	"branch_edge_483"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_485"	0	"penalized branch coefficient"	"branch_edge_485"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_486"	0	"penalized branch coefficient"	"branch_edge_486"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_813"	0	"penalized branch coefficient"	"branch_edge_813"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_814"	0	"penalized branch coefficient"	"branch_edge_814"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_815"	0	"penalized branch coefficient"	"branch_edge_815"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_817"	0	"penalized branch coefficient"	"branch_edge_817"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_818"	0	"penalized branch coefficient"	"branch_edge_818"	100	100	0	0	FALSE	0.01	0.01	0	1	NA	0	0	0	0.01	1
+"elastic_net"	"branch_edge_819"	0	"penalized branch coefficient"	"branch_edge_819"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_952"	0	"penalized branch coefficient"	"branch_edge_952"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_953"	0	"penalized branch coefficient"	"branch_edge_953"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_1059"	0	"penalized branch coefficient"	"branch_edge_1059"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1060"	0	"penalized branch coefficient"	"branch_edge_1060"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1061"	0	"penalized branch coefficient"	"branch_edge_1061"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1062"	0	"penalized branch coefficient"	"branch_edge_1062"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_1063"	0	"penalized branch coefficient"	"branch_edge_1063"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1064"	0	"penalized branch coefficient"	"branch_edge_1064"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_1098"	0	"penalized branch coefficient"	"branch_edge_1098"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	1	5
+"elastic_net"	"branch_edge_1099"	0.0177977390351904	"penalized branch coefficient"	"branch_edge_1099"	100	100	0	0	TRUE	0.93	0.93	0	1	1	0.0145638692594759	0	0.0348417461722932	1	9
+"elastic_net"	"branch_edge_1116"	0.00195174017575697	"penalized branch coefficient"	"branch_edge_1116"	100	100	0	0	TRUE	0.56	0.56	0	1	1	0.00138123717613667	0	0.0136227550718732	1	9
+"elastic_net"	"branch_edge_1117"	0	"penalized branch coefficient"	"branch_edge_1117"	100	100	0	0	FALSE	0.14	0.14	0	1	NA	0	0	0.0046838087237167	1	9
+"elastic_net"	"branch_edge_1119"	0.017051660853639	"penalized branch coefficient"	"branch_edge_1119"	100	100	0	0	TRUE	0.97	0.97	0	1	1	0.0163837456091641	0.00283585052313177	0.0280417322054398	1	9
+"elastic_net"	"branch_edge_1124"	0.0431029957849167	"penalized branch coefficient"	"branch_edge_1124"	100	100	0	0	TRUE	1	1	0	1	1	0.0415737518961247	0.0311842657410775	0.0535002617714731	1	8
+"elastic_net"	"branch_edge_1134"	0.0613334701364215	"penalized branch coefficient"	"branch_edge_1134"	100	100	0	0	TRUE	1	1	0	1	1	0.0597279648247835	0.0440944515032489	0.0733110618854075	1	8
+"elastic_net"	"branch_edge_1135"	0.0519384173715183	"penalized branch coefficient"	"branch_edge_1135"	100	100	0	0	TRUE	1	1	0	1	1	0.0508140959809533	0.0372864612802577	0.0643104524071401	1	8
+"elastic_net"	"branch_edge_1279"	0	"penalized branch coefficient"	"branch_edge_1279"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1281"	0	"penalized branch coefficient"	"branch_edge_1281"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1282"	0	"penalized branch coefficient"	"branch_edge_1282"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1335"	0	"penalized branch coefficient"	"branch_edge_1335"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1336"	0	"penalized branch coefficient"	"branch_edge_1336"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1337"	0	"penalized branch coefficient"	"branch_edge_1337"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	4
+"elastic_net"	"branch_edge_1339"	0	"penalized branch coefficient"	"branch_edge_1339"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	4
+"elastic_net"	"branch_edge_1350"	0	"penalized branch coefficient"	"branch_edge_1350"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	4
+"elastic_net"	"branch_edge_1351"	0	"penalized branch coefficient"	"branch_edge_1351"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	4
+"elastic_net"	"branch_edge_1352"	0.0590241897422326	"penalized branch coefficient"	"branch_edge_1352"	100	100	0	0	TRUE	1	1	0	1	1	0.05833723536228	0.0404573508221033	0.077181008947631	1	8
+"elastic_net"	"branch_edge_1610"	0	"penalized branch coefficient"	"branch_edge_1610"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1673"	0	"penalized branch coefficient"	"branch_edge_1673"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1674"	0	"penalized branch coefficient"	"branch_edge_1674"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1763"	0	"penalized branch coefficient"	"branch_edge_1763"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1819"	0	"penalized branch coefficient"	"branch_edge_1819"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1820"	0	"penalized branch coefficient"	"branch_edge_1820"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_1899"	0	"penalized branch coefficient"	"branch_edge_1899"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_1901"	0	"penalized branch coefficient"	"branch_edge_1901"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_2047"	0	"penalized branch coefficient"	"branch_edge_2047"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2060"	0	"penalized branch coefficient"	"branch_edge_2060"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_2061"	0	"penalized branch coefficient"	"branch_edge_2061"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_2062"	0	"penalized branch coefficient"	"branch_edge_2062"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2063"	0	"penalized branch coefficient"	"branch_edge_2063"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2064"	0	"penalized branch coefficient"	"branch_edge_2064"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2221"	0	"penalized branch coefficient"	"branch_edge_2221"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2223"	0	"penalized branch coefficient"	"branch_edge_2223"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2224"	0	"penalized branch coefficient"	"branch_edge_2224"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2340"	0	"penalized branch coefficient"	"branch_edge_2340"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_2341"	0	"penalized branch coefficient"	"branch_edge_2341"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_2362"	0	"penalized branch coefficient"	"branch_edge_2362"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_2481"	0	"penalized branch coefficient"	"branch_edge_2481"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2482"	0	"penalized branch coefficient"	"branch_edge_2482"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2483"	0	"penalized branch coefficient"	"branch_edge_2483"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2484"	0	"penalized branch coefficient"	"branch_edge_2484"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_2485"	0	"penalized branch coefficient"	"branch_edge_2485"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_2487"	0	"penalized branch coefficient"	"branch_edge_2487"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	2
+"elastic_net"	"branch_edge_2488"	0	"penalized branch coefficient"	"branch_edge_2488"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2574"	0	"penalized branch coefficient"	"branch_edge_2574"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2631"	0	"penalized branch coefficient"	"branch_edge_2631"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2632"	0	"penalized branch coefficient"	"branch_edge_2632"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2633"	0	"penalized branch coefficient"	"branch_edge_2633"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2634"	0	"penalized branch coefficient"	"branch_edge_2634"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2743"	0	"penalized branch coefficient"	"branch_edge_2743"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2744"	0	"penalized branch coefficient"	"branch_edge_2744"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2778"	0	"penalized branch coefficient"	"branch_edge_2778"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2835"	0	"penalized branch coefficient"	"branch_edge_2835"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2836"	0	"penalized branch coefficient"	"branch_edge_2836"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2994"	0	"penalized branch coefficient"	"branch_edge_2994"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2995"	0	"penalized branch coefficient"	"branch_edge_2995"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2996"	0	"penalized branch coefficient"	"branch_edge_2996"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2997"	0	"penalized branch coefficient"	"branch_edge_2997"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2998"	0	"penalized branch coefficient"	"branch_edge_2998"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_2999"	0	"penalized branch coefficient"	"branch_edge_2999"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_3000"	0	"penalized branch coefficient"	"branch_edge_3000"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_3001"	0	"penalized branch coefficient"	"branch_edge_3001"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_3002"	0	"penalized branch coefficient"	"branch_edge_3002"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_3003"	0	"penalized branch coefficient"	"branch_edge_3003"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	3
+"elastic_net"	"branch_edge_3004"	0	"penalized branch coefficient"	"branch_edge_3004"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_3005"	0	"penalized branch coefficient"	"branch_edge_3005"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	8
+"elastic_net"	"branch_edge_3006"	0	"penalized branch coefficient"	"branch_edge_3006"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_3007"	0	"penalized branch coefficient"	"branch_edge_3007"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	9
+"elastic_net"	"branch_edge_3008"	0	"penalized branch coefficient"	"branch_edge_3008"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_3009"	0	"penalized branch coefficient"	"branch_edge_3009"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	8
+"elastic_net"	"branch_edge_3011"	0	"penalized branch coefficient"	"branch_edge_3011"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	8
+"elastic_net"	"branch_edge_3012"	0	"penalized branch coefficient"	"branch_edge_3012"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_3013"	0	"penalized branch coefficient"	"branch_edge_3013"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	8
+"elastic_net"	"branch_edge_3015"	0	"penalized branch coefficient"	"branch_edge_3015"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	8
+"elastic_net"	"branch_edge_3017"	0	"penalized branch coefficient"	"branch_edge_3017"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	8
+"elastic_net"	"branch_edge_3019"	0	"penalized branch coefficient"	"branch_edge_3019"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	7
+"elastic_net"	"branch_edge_3020"	0	"penalized branch coefficient"	"branch_edge_3020"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"elastic_net"	"branch_edge_3021"	0	"penalized branch coefficient"	"branch_edge_3021"	100	100	0	0	FALSE	0	0	0	NA	NA	0	0	0	0	1
+"linear"	"branch_edge_67"	1.31452707316106e-16	"linear basis coefficient"	"branch_edge_67"	100	91	0	9	NA	NA	0.516483516483517	0.483516483516484	0.516483516483517	0.516483516483517	9.31097063458228e-19	-1.65459996393399e-16	1.97420066767194e-16	NA	NA
+"linear"	"branch_edge_202"	-1.6857625252297e-16	"linear basis coefficient"	"branch_edge_202"	100	91	0	9	NA	NA	0.571428571428571	0.428571428571429	0.571428571428571	0.428571428571429	1.69754005548633e-17	-1.72847844754787e-16	1.90256055085018e-16	NA	NA
+"linear"	"branch_edge_203"	6.86848236218039e-17	"linear basis coefficient"	"branch_edge_203"	100	91	0	9	NA	NA	0.505494505494505	0.494505494505495	0.505494505494505	0.505494505494505	3.10608348583673e-18	-1.48000096771271e-16	1.6581337770748e-16	NA	NA
+"linear"	"branch_edge_269"	-0.00752640392396325	"linear basis coefficient"	"branch_edge_269"	100	91	0	9	NA	NA	0.230769230769231	0.769230769230769	0.769230769230769	0.769230769230769	-0.00825734479250768	-0.0177216485896657	0.00811928713419275	NA	NA
+"linear"	"branch_edge_270"	-0.0135518489215089	"linear basis coefficient"	"branch_edge_270"	100	91	0	9	NA	NA	0.153846153846154	0.846153846153846	0.846153846153846	0.846153846153846	-0.0153587621110438	-0.0191984526388045	1.12894208440345e-16	NA	NA
+"linear"	"branch_edge_442"	-5.17640584843111e-17	"linear basis coefficient"	"branch_edge_442"	100	91	0	9	NA	NA	0.549450549450549	0.450549450549451	0.549450549450549	0.450549450549451	1.19229114955897e-17	-1.34651994456379e-16	1.10139592568484e-16	NA	NA
+"linear"	"branch_edge_443"	-7.34349642981147e-17	"linear basis coefficient"	"branch_edge_443"	100	91	0	9	NA	NA	0.472527472527473	0.527472527472527	0.527472527472527	0.527472527472527	-6.14080067446438e-18	-1.15953115985744e-16	1.57479972625618e-16	NA	NA
+"linear"	"branch_edge_474"	-1.22619385490106e-16	"linear basis coefficient"	"branch_edge_474"	100	91	0	9	NA	NA	0.505494505494505	0.494505494505495	0.505494505494505	0.494505494505495	9.37657507427069e-18	-2.05843668626597e-16	2.28946621652732e-16	NA	NA
+"linear"	"branch_edge_475"	-0.00373459618084969	"linear basis coefficient"	"branch_edge_475"	100	91	0	9	NA	NA	0.0659340659340659	0.934065934065934	0.934065934065934	0.934065934065934	-0.00426810992097133	-0.00543213989941803	3.73615006360166e-18	NA	NA
+"linear"	"branch_edge_477"	-0.00864204629849145	"linear basis coefficient"	"branch_edge_477"	100	91	0	9	NA	NA	0.175824175824176	0.824175824175824	0.824175824175824	0.824175824175824	-0.010530581406012	-0.0165173574264734	0.00459642606873823	NA	NA
+"linear"	"branch_edge_479"	0.0123766424793415	"linear basis coefficient"	"branch_edge_479"	100	91	0	9	NA	NA	0.923076923076923	0.0769230769230769	0.923076923076923	0.923076923076923	0.0151270074747501	-3.04316984817313e-17	0.0181524089697004	NA	NA
+"linear"	"branch_edge_481"	-0.013551848921509	"linear basis coefficient"	"branch_edge_481"	100	91	0	9	NA	NA	0.153846153846154	0.846153846153846	0.846153846153846	0.846153846153846	-0.0153587621110438	-0.0191984526388046	1.99423537791003e-16	NA	NA
+"linear"	"branch_edge_485"	0.0135518489215088	"linear basis coefficient"	"branch_edge_485"	100	91	0	9	NA	NA	0.813186813186813	0.186813186813187	0.813186813186813	0.813186813186813	0.0153587621110437	-1.70806331195678e-16	0.0191984526388045	NA	NA
+"linear"	"branch_edge_486"	-1.25654766916205e-16	"linear basis coefficient"	"branch_edge_486"	100	91	0	9	NA	NA	0.43956043956044	0.56043956043956	0.56043956043956	0.56043956043956	-1.02008051720133e-17	-1.46162999391073e-16	1.6315095709742e-16	NA	NA
+"linear"	"branch_edge_813"	0.0690781155048946	"linear basis coefficient"	"branch_edge_813"	100	91	0	9	NA	NA	0.879120879120879	0.120879120879121	0.879120879120879	0.879120879120879	0.0778159301103223	-0.0144961916781426	0.185212481120538	NA	NA
+"linear"	"branch_edge_814"	-0.110236088743193	"linear basis coefficient"	"branch_edge_814"	100	91	0	9	NA	NA	0.043956043956044	0.956043956043956	0.956043956043956	0.956043956043956	-0.0972570725408797	-0.201617788191432	-0.00894824239010173	NA	NA
+"linear"	"branch_edge_817"	-0.064204795561217	"linear basis coefficient"	"branch_edge_817"	100	91	0	9	NA	NA	0.241758241758242	0.758241758241758	0.758241758241758	0.758241758241758	-0.0795852349903673	-0.202293636094466	0.0652685284362776	NA	NA
+"linear"	"branch_edge_818"	0.0697998738955003	"linear basis coefficient"	"branch_edge_818"	100	91	0	9	NA	NA	0.835164835164835	0.164835164835165	0.835164835164835	0.835164835164835	0.0678287582789037	-0.042286994119779	0.206962421992259	NA	NA
+"linear"	"branch_edge_952"	-0.0158647874982073	"linear basis coefficient"	"branch_edge_952"	100	91	0	9	NA	NA	0.384615384615385	0.615384615384615	0.615384615384615	0.615384615384615	-0.0140926846856329	-0.100773260442793	0.057657585360868	NA	NA
+"linear"	"branch_edge_953"	-0.0372950083790975	"linear basis coefficient"	"branch_edge_953"	100	91	0	9	NA	NA	0.285714285714286	0.714285714285714	0.714285714285714	0.714285714285714	-0.0301341932927972	-0.125641087013551	0.0813397674727112	NA	NA
+"linear"	"branch_edge_1059"	-0.10813095702466	"linear basis coefficient"	"branch_edge_1059"	100	91	0	9	NA	NA	0.021978021978022	0.978021978021978	0.978021978021978	0.978021978021978	-0.100592380434848	-0.206780915791349	-0.0202880288963741	NA	NA
+"linear"	"branch_edge_1060"	-0.162637607549712	"linear basis coefficient"	"branch_edge_1060"	100	91	0	9	NA	NA	0.010989010989011	0.989010989010989	0.989010989010989	0.989010989010989	-0.153802449867718	-0.224857167241391	-0.0650260458435307	NA	NA
+"linear"	"branch_edge_1062"	-0.07807932093792	"linear basis coefficient"	"branch_edge_1062"	100	91	0	9	NA	NA	0.032967032967033	0.967032967032967	0.967032967032967	0.967032967032967	-0.0792380080096596	-0.180760397333242	-0.0125566976788263	NA	NA
+"linear"	"branch_edge_1064"	-0.101603292607711	"linear basis coefficient"	"branch_edge_1064"	100	91	0	9	NA	NA	0.0879120879120879	0.912087912087912	0.912087912087912	0.912087912087912	-0.0893931584672841	-0.230738650549378	0.0267094319887339	NA	NA
+"linear"	"branch_edge_1099"	0.227272988264882	"linear basis coefficient"	"branch_edge_1099"	100	91	0	9	NA	NA	1	0	1	1	0.22098566261835	0.147046085688111	0.311022467682054	NA	NA
+"linear"	"branch_edge_1116"	0.054237698931507	"linear basis coefficient"	"branch_edge_1116"	100	91	0	9	NA	NA	0.846153846153846	0.153846153846154	0.846153846153846	0.846153846153846	0.0498038387783074	-0.0319022675265491	0.150534502880493	NA	NA
+"linear"	"branch_edge_1117"	-0.240369774973965	"linear basis coefficient"	"branch_edge_1117"	100	91	0	9	NA	NA	0	1	1	1	-0.250005330556299	-0.365477186707955	-0.12033528397344	NA	NA
+"linear"	"branch_edge_1119"	0.0311025995437937	"linear basis coefficient"	"branch_edge_1119"	100	91	0	9	NA	NA	0.747252747252747	0.252747252747253	0.747252747252747	0.747252747252747	0.0457167207949569	-0.0928492701486252	0.176787710873597	NA	NA
+"linear"	"branch_edge_1124"	-0.232431508119233	"linear basis coefficient"	"branch_edge_1124"	100	91	0	9	NA	NA	0	1	1	1	-0.224304679090761	-0.314069265541768	-0.153023847112889	NA	NA
+"linear"	"branch_edge_1134"	0.569791654435787	"linear basis coefficient"	"branch_edge_1134"	100	91	0	9	NA	NA	1	0	1	1	0.569791654435786	0.508932202271036	0.661080832682914	NA	NA
+"linear"	"branch_edge_1135"	-0.075121277137296	"linear basis coefficient"	"branch_edge_1135"	100	91	0	9	NA	NA	0.131868131868132	0.868131868131868	0.868131868131868	0.868131868131868	-0.0959225840603488	-0.208420833810163	0.0260484543510116	NA	NA
+"linear"	"branch_edge_1279"	-2.50204118966444e-18	"linear basis coefficient"	"branch_edge_1279"	100	91	0	9	NA	NA	0.483516483516484	0.516483516483517	0.516483516483517	0.516483516483517	-8.10013744389849e-20	-6.80123314325171e-18	6.82864884549943e-18	NA	NA
+"linear"	"branch_edge_1281"	5.88411493449969e-18	"linear basis coefficient"	"branch_edge_1281"	100	91	0	9	NA	NA	0.43956043956044	0.56043956043956	0.56043956043956	0.43956043956044	-5.20561585517115e-19	-6.18211040655492e-18	5.45922156819131e-18	NA	NA
+"linear"	"branch_edge_1282"	0.0162893722754276	"linear basis coefficient"	"branch_edge_1282"	100	91	0	9	NA	NA	0.89010989010989	0.10989010989011	0.89010989010989	0.89010989010989	0.0199915023380248	-2.89247404008005e-18	0.0231480553387656	NA	NA
+"linear"	"branch_edge_1335"	3.99227730388343e-18	"linear basis coefficient"	"branch_edge_1335"	100	91	0	9	NA	NA	0.450549450549451	0.549450549450549	0.549450549450549	0.450549450549451	-4.18509218627053e-19	-5.35478941952159e-18	5.31877263747897e-18	NA	NA
+"linear"	"branch_edge_1339"	-3.14958363359285e-18	"linear basis coefficient"	"branch_edge_1339"	100	91	0	9	NA	NA	0.483516483516484	0.516483516483517	0.516483516483517	0.516483516483517	-1.02541044296729e-19	-5.3643529906501e-18	5.66140633778637e-18	NA	NA
+"linear"	"branch_edge_1350"	3.29340838402871e-19	"linear basis coefficient"	"branch_edge_1350"	100	91	0	9	NA	NA	0.494505494505495	0.505494505494505	0.505494505494505	0.494505494505495	-1.43565423885861e-20	-6.05840370098402e-18	6.38773624797378e-18	NA	NA
+"linear"	"branch_edge_1351"	4.44328256257918e-17	"linear basis coefficient"	"branch_edge_1351"	100	91	0	9	NA	NA	0.516483516483517	0.483516483516484	0.516483516483517	0.516483516483517	3.2496993259032e-18	-1.42092980252767e-16	1.49773025019378e-16	NA	NA
+"linear"	"branch_edge_1352"	0.166410455384423	"linear basis coefficient"	"branch_edge_1352"	100	91	0	9	NA	NA	1	0	1	1	0.173901743863161	0.0706870427075828	0.24653906224253	NA	NA
+"linear"	"branch_edge_1610"	0.00519169291255826	"linear basis coefficient"	"branch_edge_1610"	100	91	0	9	NA	NA	0.923076923076923	0.0769230769230769	0.923076923076923	0.923076923076923	0.00637162311995786	-5.22641017654587e-19	0.00758260412228904	NA	NA
+"linear"	"branch_edge_1673"	0.0106778506797835	"linear basis coefficient"	"branch_edge_1673"	100	91	0	9	NA	NA	0.989010989010989	0.010989010989011	0.989010989010989	0.989010989010989	0.0122032579197525	0.00402430583653074	0.0148561400762205	NA	NA
+"linear"	"branch_edge_1674"	9.28267794870832e-19	"linear basis coefficient"	"branch_edge_1674"	100	91	0	9	NA	NA	0.527472527472527	0.472527472527473	0.527472527472527	0.527472527472527	5.55849186273825e-19	-7.7950852443225e-18	7.229339985783e-18	NA	NA
+"linear"	"branch_edge_1763"	-0.012131558045245	"linear basis coefficient"	"branch_edge_1763"	100	91	0	9	NA	NA	0.0879120879120879	0.912087912087912	0.912087912087912	0.912087912087912	-0.0138646377659943	-0.0176459026112655	1.172307622486e-18	NA	NA
+"linear"	"branch_edge_1819"	0.00364055131941497	"linear basis coefficient"	"branch_edge_1819"	100	91	0	9	NA	NA	0.846153846153846	0.153846153846154	0.846153846153846	0.846153846153846	0.00443197551928777	-5.12539020561683e-18	0.00509677184718094	NA	NA
+"linear"	"branch_edge_1820"	0.012131558045245	"linear basis coefficient"	"branch_edge_1820"	100	91	0	9	NA	NA	0.923076923076923	0.0769230769230769	0.923076923076923	0.923076923076923	0.0138646377659943	-2.31022043756831e-18	0.0176459026112655	NA	NA
+"linear"	"branch_edge_1899"	-2.38001585926608e-18	"linear basis coefficient"	"branch_edge_1899"	100	91	0	9	NA	NA	0.549450549450549	0.450549450549451	0.549450549450549	0.450549450549451	1.86447534775793e-19	-4.85118707549717e-18	5.17419382250163e-18	NA	NA
+"linear"	"branch_edge_1901"	1.37359318819019e-18	"linear basis coefficient"	"branch_edge_1901"	100	91	0	9	NA	NA	0.362637362637363	0.637362637362637	0.637362637362637	0.362637362637363	-5.9249745177258e-19	-4.8419303742866e-18	3.17674332771561e-18	NA	NA
+"linear"	"branch_edge_2047"	2.85144357853532e-18	"linear basis coefficient"	"branch_edge_2047"	100	91	0	9	NA	NA	0.505494505494505	0.494505494505495	0.505494505494505	0.505494505494505	2.17834497017275e-20	-4.13606959508037e-18	4.00822604454698e-18	NA	NA
+"linear"	"branch_edge_2060"	6.815987945369e-18	"linear basis coefficient"	"branch_edge_2060"	100	91	0	9	NA	NA	0.571428571428571	0.428571428571429	0.571428571428571	0.571428571428571	1.96985143350754e-19	-4.61972528735284e-18	5.58506416875182e-18	NA	NA
+"linear"	"branch_edge_2061"	-3.40389848891094e-18	"linear basis coefficient"	"branch_edge_2061"	100	91	0	9	NA	NA	0.43956043956044	0.56043956043956	0.56043956043956	0.56043956043956	-4.11753538408175e-19	-6.99420142047078e-18	6.26659735338016e-18	NA	NA
+"linear"	"branch_edge_2062"	0.00165592668694937	"linear basis coefficient"	"branch_edge_2062"	100	91	0	9	NA	NA	0.901098901098901	0.0989010989010989	0.901098901098901	0.901098901098901	0.00203806361470691	-3.00321411421079e-18	0.00240862063556272	NA	NA
+"linear"	"branch_edge_2064"	2.0373613801038e-18	"linear basis coefficient"	"branch_edge_2064"	100	91	0	9	NA	NA	0.56043956043956	0.43956043956044	0.56043956043956	0.56043956043956	6.80262842294718e-19	-5.97567458834172e-18	7.43970676502649e-18	NA	NA
+"linear"	"branch_edge_2221"	-0.0141440387986652	"linear basis coefficient"	"branch_edge_2221"	100	91	0	9	NA	NA	0.153846153846154	0.846153846153846	0.846153846153846	0.846153846153846	-0.0163200447676907	-0.0223947280978866	2.35653478123205e-18	NA	NA
+"linear"	"branch_edge_2223"	0.0141440387986652	"linear basis coefficient"	"branch_edge_2223"	100	91	0	9	NA	NA	0.912087912087912	0.0879120879120879	0.912087912087912	0.912087912087912	0.0163200447676907	-1.636476717448e-18	0.0223947280978866	NA	NA
+"linear"	"branch_edge_2224"	0.0361207563545074	"linear basis coefficient"	"branch_edge_2224"	100	91	0	9	NA	NA	1	0	1	1	0.0388992760740849	0.0159194904272127	0.0505690588963103	NA	NA
+"linear"	"branch_edge_2340"	-1.58741418593469e-18	"linear basis coefficient"	"branch_edge_2340"	100	91	0	9	NA	NA	0.549450549450549	0.450549450549451	0.549450549450549	0.450549450549451	2.52056348370953e-19	-2.70400811599414e-18	3.38391249925658e-18	NA	NA
+"linear"	"branch_edge_2341"	5.85812816673081e-19	"linear basis coefficient"	"branch_edge_2341"	100	91	0	9	NA	NA	0.450549450549451	0.549450549450549	0.549450549450549	0.450549450549451	-2.03209862057832e-19	-3.44468441961457e-18	3.31920951506425e-18	NA	NA
+"linear"	"branch_edge_2362"	2.20380996642253e-18	"linear basis coefficient"	"branch_edge_2362"	100	91	0	9	NA	NA	0.527472527472527	0.472527472527473	0.527472527472527	0.527472527472527	3.35431707062562e-19	-4.18783212796186e-18	4.4414730262709e-18	NA	NA
+"linear"	"branch_edge_2481"	-2.41471887386384e-18	"linear basis coefficient"	"branch_edge_2481"	100	91	0	9	NA	NA	0.582417582417582	0.417582417582418	0.582417582417582	0.417582417582418	4.63119052687056e-19	-3.61142771530126e-18	3.79110885110228e-18	NA	NA
+"linear"	"branch_edge_2482"	5.7232001873188e-19	"linear basis coefficient"	"branch_edge_2482"	100	91	0	9	NA	NA	0.516483516483517	0.483516483516484	0.516483516483517	0.516483516483517	1.82195750327718e-19	-2.78361356304095e-18	4.28169620867975e-18	NA	NA
+"linear"	"branch_edge_2484"	-1.9885079842869e-18	"linear basis coefficient"	"branch_edge_2484"	100	91	0	9	NA	NA	0.461538461538462	0.538461538461538	0.538461538461538	0.538461538461538	-1.76930207700211e-19	-3.83329133824063e-18	3.97568864472817e-18	NA	NA
+"linear"	"branch_edge_2487"	2.49546043716676e-18	"linear basis coefficient"	"branch_edge_2487"	100	91	0	9	NA	NA	0.538461538461538	0.461538461538462	0.538461538461538	0.538461538461538	1.65026078651169e-19	-6.69801903110388e-18	7.57660139221593e-18	NA	NA
+"linear"	"branch_edge_2574"	4.54956014232613e-19	"linear basis coefficient"	"branch_edge_2574"	100	91	0	9	NA	NA	0.549450549450549	0.450549450549451	0.549450549450549	0.549450549450549	1.89591638514859e-19	-3.72415024038392e-18	4.94811528547069e-18	NA	NA
+"linear"	"branch_edge_2631"	2.64440673967055e-18	"linear basis coefficient"	"branch_edge_2631"	100	91	0	9	NA	NA	0.538461538461538	0.461538461538462	0.538461538461538	0.538461538461538	1.22972074331515e-18	-7.48277965232952e-18	7.76479040597071e-18	NA	NA
+"linear"	"branch_edge_2632"	1.07730629501683e-18	"linear basis coefficient"	"branch_edge_2632"	100	91	0	9	NA	NA	0.505494505494505	0.494505494505495	0.505494505494505	0.505494505494505	3.25352237219301e-19	-6.89783290165932e-18	6.99814927977542e-18	NA	NA
+"linear"	"branch_edge_2743"	0.00418800081031347	"linear basis coefficient"	"branch_edge_2743"	100	91	0	9	NA	NA	0.78021978021978	0.21978021978022	0.78021978021978	0.78021978021978	0.00469809534357029	-0.017569769158461	0.0210128809907127	NA	NA
+"linear"	"branch_edge_2744"	-0.0134357058270584	"linear basis coefficient"	"branch_edge_2744"	100	91	0	9	NA	NA	0.0989010989010989	0.901098901098901	0.901098901098901	0.901098901098901	-0.0163147856471423	-0.0207642726418175	5.7436970365247e-19	NA	NA
+"linear"	"branch_edge_2835"	2.27458719258964e-18	"linear basis coefficient"	"branch_edge_2835"	100	91	0	9	NA	NA	0.659340659340659	0.340659340659341	0.659340659340659	0.659340659340659	2.14436910714503e-18	-7.53372201438661e-18	8.96407806794053e-18	NA	NA
+"linear"	"branch_edge_2836"	0.0134357058270584	"linear basis coefficient"	"branch_edge_2836"	100	91	0	9	NA	NA	0.934065934065934	0.0659340659340659	0.934065934065934	0.934065934065934	0.0163147856471423	-3.04116358764572e-19	0.0207642726418175	NA	NA
+"linear"	"branch_edge_2994"	-2.94062167482232e-16	"linear basis coefficient"	"branch_edge_2994"	100	91	0	9	NA	NA	0.527472527472527	0.472527472527473	0.527472527472527	0.472527472527473	5.18529584346832e-17	-5.79807882739435e-16	7.3587626591189e-16	NA	NA
+"linear"	"branch_edge_2995"	2.38890378417895e-16	"linear basis coefficient"	"branch_edge_2995"	100	91	0	9	NA	NA	0.505494505494505	0.494505494505495	0.505494505494505	0.505494505494505	1.02251220882026e-17	-4.35633121933424e-16	4.83592845948905e-16	NA	NA
+"linear"	"branch_edge_2996"	1.37084522067579e-18	"linear basis coefficient"	"branch_edge_2996"	100	91	0	9	NA	NA	0.593406593406593	0.406593406593407	0.593406593406593	0.593406593406593	1.43320483993603e-18	-8.32720059033531e-18	1.25842472706494e-17	NA	NA
+"linear"	"branch_edge_3008"	2.5659080660434e-30	"linear basis coefficient"	"branch_edge_3008"	100	91	0	9	NA	NA	0.505494505494505	0.494505494505495	0.505494505494505	0.505494505494505	1.19144068225996e-31	-5.25278860067965e-30	3.14608498129562e-30	NA	NA
+"linear"	"branch_edge_3011"	-1.77199137038015e-30	"linear basis coefficient"	"branch_edge_3011"	100	91	0	9	NA	NA	0.450549450549451	0.549450549450549	0.549450549450549	0.549450549450549	-5.287631181324e-31	-5.12569034087323e-30	7.15808963755818e-30	NA	NA
+"linear"	"branch_edge_3012"	7.60812516707296e-31	"linear basis coefficient"	"branch_edge_3012"	100	91	0	9	NA	NA	0.340659340659341	0.659340659340659	0.659340659340659	0.340659340659341	-3.93432873452121e-31	-2.14434770178041e-30	2.1406063542988e-30	NA	NA
+"linear"	"branch_edge_3015"	-1.06769677645227e-30	"linear basis coefficient"	"branch_edge_3015"	100	91	0	9	NA	NA	0.56043956043956	0.43956043956044	0.56043956043956	0.43956043956044	5.7774585251597e-31	-3.31971864151838e-30	3.90228517647735e-30	NA	NA
+"linear"	"branch_edge_3017"	6.21923762650054e-31	"linear basis coefficient"	"branch_edge_3017"	100	91	0	9	NA	NA	0.186813186813187	0.813186813186813	0.813186813186813	0.186813186813187	-2.5427138347103e-30	-1.14810485367554e-29	3.2245036699158e-30	NA	NA
+"contrasts"	"branch_edge_67__14__within_clone"	-0.00347607666677516	"within-clone cell contrast"	"14 / branch_edge_67 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00395243578833177	-0.00440163055933553	-0.00163501763183868	NA	NA
+"contrasts"	"branch_edge_67__14__sister_within_clone"	0	"within-clone cell contrast"	"14 / branch_edge_67 / sister"	100	12	0	88	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_202__14__within_clone"	-0.00355729341132599	"within-clone cell contrast"	"14 / branch_edge_202 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00402013186608255	-0.00450450171611693	-0.00168257382019187	NA	NA
+"contrasts"	"branch_edge_202__14__sister_within_clone"	0	"within-clone cell contrast"	"14 / branch_edge_202 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_203__14__within_clone"	-0.00390390148730134	"within-clone cell contrast"	"14 / branch_edge_203 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00441199529012682	-0.00494325188327118	-0.00186441309202413	NA	NA
+"contrasts"	"branch_edge_269__14__within_clone"	0.00335994212975059	"within-clone cell contrast"	"14 / branch_edge_269 / rest"	100	100	0	0	NA	NA	0.81	0.19	0.81	0.81	0.00450258953473055	-0.00328997966711605	0.00658829113736063	NA	NA
+"contrasts"	"branch_edge_269__14__sister_within_clone"	0.00602544499754563	"within-clone cell contrast"	"14 / branch_edge_269 / sister"	100	100	0	0	NA	NA	0.81	0	1	1	0.007364432774778	0	0.00864520369213069	NA	NA
+"contrasts"	"branch_edge_270__14__within_clone"	-0.00398565858651184	"within-clone cell contrast"	"14 / branch_edge_270 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00449684135339849	-0.00504314267298302	-0.00190117780294547	NA	NA
+"contrasts"	"branch_edge_270__14__sister_within_clone"	-0.00602544499754563	"within-clone cell contrast"	"14 / branch_edge_270 / sister"	100	100	0	0	NA	NA	0	0.81	1	1	-0.007364432774778	-0.00864520369213069	0	NA	NA
+"contrasts"	"branch_edge_442__14__within_clone"	-0.00352435550936926	"within-clone cell contrast"	"14 / branch_edge_442 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.0039972247588748	-0.00445312684360305	-0.0016623133836699	NA	NA
+"contrasts"	"branch_edge_442__14__sister_within_clone"	0	"within-clone cell contrast"	"14 / branch_edge_442 / sister"	100	28	0	72	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_443__14__within_clone"	-0.00371346726840859	"within-clone cell contrast"	"14 / branch_edge_443 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00417563839958431	-0.00469914067915902	-0.00176317084029695	NA	NA
+"contrasts"	"branch_edge_474__14__within_clone"	-0.00384475146476647	"within-clone cell contrast"	"14 / branch_edge_474 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00429060435282739	-0.00487987685912667	-0.00183010698853133	NA	NA
+"contrasts"	"branch_edge_474__14__sister_within_clone"	0	"within-clone cell contrast"	"14 / branch_edge_474 / sister"	100	92	0	8	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_475__14__within_clone"	-0.00415989502745225	"within-clone cell contrast"	"14 / branch_edge_475 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00463046133435952	-0.00532537650068331	-0.00198111321067509	NA	NA
+"contrasts"	"branch_edge_475__14__sister_within_clone"	-0.00373459618084983	"within-clone cell contrast"	"14 / branch_edge_475 / sister"	100	98	0	2	NA	NA	0	0.836734693877551	1	1	-0.00426810992097123	-0.00543213989941793	0	NA	NA
+"contrasts"	"branch_edge_477__14__within_clone"	-0.00342462223670518	"within-clone cell contrast"	"14 / branch_edge_477 / rest"	100	100	0	0	NA	NA	0.01	0.99	0.99	0.99	-0.00384043834761568	-0.00523512873977734	-0.000796845004928001	NA	NA
+"contrasts"	"branch_edge_477__14__sister_within_clone"	-0.01160062249371	"within-clone cell contrast"	"14 / branch_edge_477 / sister"	100	100	0	0	NA	NA	0.15	0.84	0.848484848484849	0.848484848484849	-0.0141055048373232	-0.0172338201841449	0.000979566211370447	NA	NA
+"contrasts"	"branch_edge_479__14__within_clone"	0.000393790463726138	"within-clone cell contrast"	"14 / branch_edge_479 / rest"	100	100	0	0	NA	NA	0.75	0.25	0.75	0.75	0.000460495091974198	-0.00290248554054925	0.00278534182159015	NA	NA
+"contrasts"	"branch_edge_481__14__within_clone"	2.21518031598565e-05	"within-clone cell contrast"	"14 / branch_edge_481 / rest"	100	100	0	0	NA	NA	0.53	0.47	0.53	0.53	4.33894851393926e-06	-0.00306971526710182	0.00243528348806245	NA	NA
+"contrasts"	"branch_edge_481__14__sister_within_clone"	0.000820360389902172	"within-clone cell contrast"	"14 / branch_edge_481 / sister"	100	100	0	0	NA	NA	0.88	0.11	0.888888888888889	0.888888888888889	0.000870750025398671	-0.00211436259234546	0.00382103802700036	NA	NA
+"contrasts"	"branch_edge_482__14__within_clone"	-0.00124753788797512	"within-clone cell contrast"	"14 / branch_edge_482 / rest"	100	100	0	0	NA	NA	0.28	0.72	0.72	0.72	-0.00126724411743649	-0.0043263161931135	0.000704203892135789	NA	NA
+"contrasts"	"branch_edge_482__14__sister_within_clone"	-0.000820360389902172	"within-clone cell contrast"	"14 / branch_edge_482 / sister"	100	100	0	0	NA	NA	0.11	0.88	0.888888888888889	0.888888888888889	-0.000870750025398671	-0.00382103802700036	0.00211436259234546	NA	NA
+"contrasts"	"branch_edge_483__14__within_clone"	-0.00166541548930124	"within-clone cell contrast"	"14 / branch_edge_483 / rest"	100	100	0	0	NA	NA	0.26	0.74	0.74	0.74	-0.00201547245468476	-0.00397723804440366	0.00346979972783078	NA	NA
+"contrasts"	"branch_edge_483__14__sister_within_clone"	-0.0107868522633938	"within-clone cell contrast"	"14 / branch_edge_483 / sister"	100	98	0	2	NA	NA	0.255102040816327	0.744897959183674	0.744897959183674	0.744897959183674	-0.0129400592074267	-0.0175668978447503	0.00346979972783078	NA	NA
+"contrasts"	"branch_edge_485__14__within_clone"	0.0036423961245156	"within-clone cell contrast"	"14 / branch_edge_485 / rest"	100	100	0	0	NA	NA	1	0	1	1	0.00415093048006014	0.00169289848759469	0.00464183408551074	NA	NA
+"contrasts"	"branch_edge_485__14__sister_within_clone"	0.0036423961245156	"within-clone cell contrast"	"14 / branch_edge_485 / sister"	100	100	0	0	NA	NA	1	0	1	1	0.00415093048006014	0.00169289848759469	0.00464183408551074	NA	NA
+"contrasts"	"branch_edge_486__14__within_clone"	-0.0036423961245156	"within-clone cell contrast"	"14 / branch_edge_486 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00415093048006014	-0.00464183408551074	-0.00169289848759469	NA	NA
+"contrasts"	"branch_edge_486__14__sister_within_clone"	-0.0036423961245156	"within-clone cell contrast"	"14 / branch_edge_486 / sister"	100	100	0	0	NA	NA	0	1	1	1	-0.00415093048006014	-0.00464183408551074	-0.00169289848759469	NA	NA
+"contrasts"	"branch_edge_813__2__within_clone"	0.0426739121928366	"within-clone cell contrast"	"2 / branch_edge_813 / rest"	100	100	0	0	NA	NA	0.89	0.11	0.89	0.89	0.050202516311603	-0.0236109286425606	0.103552695332304	NA	NA
+"contrasts"	"branch_edge_813__2__sister_within_clone"	0.179314204248087	"within-clone cell contrast"	"2 / branch_edge_813 / sister"	100	100	0	0	NA	NA	1	0	1	1	0.185664309877483	0.0989681660580239	0.273226572647592	NA	NA
+"contrasts"	"branch_edge_814__2__within_clone"	-0.153861719997368	"within-clone cell contrast"	"2 / branch_edge_814 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.150250875804227	-0.219651041338236	-0.0986707438221329	NA	NA
+"contrasts"	"branch_edge_814__2__sister_within_clone"	-0.179314204248087	"within-clone cell contrast"	"2 / branch_edge_814 / sister"	100	100	0	0	NA	NA	0	1	1	1	-0.185664309877483	-0.273226572647592	-0.0989681660580239	NA	NA
+"contrasts"	"branch_edge_815__2__within_clone"	-0.0648614088098256	"within-clone cell contrast"	"2 / branch_edge_815 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.0572579589588476	-0.101290816323812	-0.0226091906585904	NA	NA
+"contrasts"	"branch_edge_815__2__sister_within_clone"	-0.0237810259807225	"within-clone cell contrast"	"2 / branch_edge_815 / sister"	100	99	0	1	NA	NA	0.404040404040404	0.595959595959596	0.595959595959596	0.595959595959596	-0.0143411629995103	-0.102361407911226	0.0749191405448875	NA	NA
+"contrasts"	"branch_edge_817__2__within_clone"	-0.0621644770203172	"within-clone cell contrast"	"2 / branch_edge_817 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.0608537461104914	-0.104135052357002	-0.0234222414420724	NA	NA
+"contrasts"	"branch_edge_817__2__sister_within_clone"	-0.15250102299728	"within-clone cell contrast"	"2 / branch_edge_817 / sister"	100	100	0	0	NA	NA	0	1	1	1	-0.149374137021048	-0.206963519473897	-0.101391943451838	NA	NA
+"contrasts"	"branch_edge_818__2__within_clone"	0.117797070604002	"within-clone cell contrast"	"2 / branch_edge_818 / rest"	100	100	0	0	NA	NA	0.99	0.01	0.99	0.99	0.114894582031451	0.0618998197926257	0.163280102378262	NA	NA
+"contrasts"	"branch_edge_818__2__sister_within_clone"	0.15250102299728	"within-clone cell contrast"	"2 / branch_edge_818 / sister"	100	100	0	0	NA	NA	1	0	1	1	0.149374137021048	0.101391943451838	0.206963519473897	NA	NA
+"contrasts"	"branch_edge_819__2__within_clone"	0.00641023505650828	"within-clone cell contrast"	"2 / branch_edge_819 / rest"	100	100	0	0	NA	NA	0.66	0.34	0.66	0.66	0.00673651849837181	-0.0313737614935048	0.0345629174135482	NA	NA
+"contrasts"	"branch_edge_819__2__sister_within_clone"	-0.0300189775209008	"within-clone cell contrast"	"2 / branch_edge_819 / sister"	100	89	0	11	NA	NA	0.247191011235955	0.752808988764045	0.752808988764045	0.752808988764045	-0.0330783856264802	-0.111206840424014	0.0901631691851815	NA	NA
+"contrasts"	"branch_edge_952__2__within_clone"	0.00516958476838975	"within-clone cell contrast"	"2 / branch_edge_952 / rest"	100	100	0	0	NA	NA	0.62	0.38	0.62	0.62	0.0118182045557357	-0.0486032037423144	0.0538605566735604	NA	NA
+"contrasts"	"branch_edge_952__2__sister_within_clone"	-0.0158647874982072	"within-clone cell contrast"	"2 / branch_edge_952 / sister"	100	100	0	0	NA	NA	0.39	0.61	0.61	0.61	-0.0140132368107984	-0.102830876163091	0.0579346514701327	NA	NA
+"contrasts"	"branch_edge_953__2__within_clone"	0.0136179995511723	"within-clone cell contrast"	"2 / branch_edge_953 / rest"	100	100	0	0	NA	NA	0.76	0.24	0.76	0.76	0.0178955609485711	-0.0381404970971768	0.0592904367274985	NA	NA
+"contrasts"	"branch_edge_953__2__sister_within_clone"	-0.0465950562228741	"within-clone cell contrast"	"2 / branch_edge_953 / sister"	100	10	0	90	NA	NA	0.1	0.9	0.9	0.9	-0.0292915561422121	-0.067963141666143	-0.00507831345679934	NA	NA
+"contrasts"	"branch_edge_1059__2__within_clone"	0.03034489544998	"within-clone cell contrast"	"2 / branch_edge_1059 / rest"	100	100	0	0	NA	NA	0.78	0.22	0.78	0.78	0.0321270398965919	-0.0419909076526439	0.0820643509110253	NA	NA
+"contrasts"	"branch_edge_1059__2__sister_within_clone"	0.0545066505250519	"within-clone cell contrast"	"2 / branch_edge_1059 / sister"	100	100	0	0	NA	NA	0.84	0.16	0.84	0.84	0.0511920999991883	-0.0504783606934146	0.132447548502468	NA	NA
+"contrasts"	"branch_edge_1060__2__within_clone"	-0.0290879640902429	"within-clone cell contrast"	"2 / branch_edge_1060 / rest"	100	100	0	0	NA	NA	0.26	0.74	0.74	0.74	-0.0268214665452722	-0.0843638147275929	0.0389570847287779	NA	NA
+"contrasts"	"branch_edge_1060__2__sister_within_clone"	-0.0545066505250519	"within-clone cell contrast"	"2 / branch_edge_1060 / sister"	100	100	0	0	NA	NA	0.16	0.84	0.84	0.84	-0.0511920999991883	-0.132447548502468	0.0504783606934146	NA	NA
+"contrasts"	"branch_edge_1061__2__within_clone"	0.00179137307534977	"within-clone cell contrast"	"2 / branch_edge_1061 / rest"	100	100	0	0	NA	NA	0.54	0.46	0.54	0.54	0.00232244186428704	-0.0403905337252926	0.0460075470250222	NA	NA
+"contrasts"	"branch_edge_1061__2__sister_within_clone"	-0.0165527368596835	"within-clone cell contrast"	"2 / branch_edge_1061 / sister"	100	100	0	0	NA	NA	0.33	0.67	0.67	0.67	-0.0195319362270985	-0.0646969844673854	0.028687117438678	NA	NA
+"contrasts"	"branch_edge_1062__2__within_clone"	0.022804053072682	"within-clone cell contrast"	"2 / branch_edge_1062 / rest"	100	100	0	0	NA	NA	0.82	0.18	0.82	0.82	0.0281793076962376	-0.0258093137336172	0.0594640088577164	NA	NA
+"contrasts"	"branch_edge_1062__2__sister_within_clone"	0.0165527368596835	"within-clone cell contrast"	"2 / branch_edge_1062 / sister"	100	100	0	0	NA	NA	0.67	0.33	0.67	0.67	0.0195319362270985	-0.028687117438678	0.0646969844673854	NA	NA
+"contrasts"	"branch_edge_1063__2__within_clone"	0.0171321920137364	"within-clone cell contrast"	"2 / branch_edge_1063 / rest"	100	100	0	0	NA	NA	0.83	0.17	0.83	0.83	0.020773147995582	-0.0213599290328711	0.0552023931738707	NA	NA
+"contrasts"	"branch_edge_1063__2__sister_within_clone"	0.00308424648774408	"within-clone cell contrast"	"2 / branch_edge_1063 / sister"	100	100	0	0	NA	NA	0.6	0.4	0.6	0.6	0.00362377369377828	-0.0287852784706468	0.0454589190577207	NA	NA
+"contrasts"	"branch_edge_1064__2__within_clone"	0.0123242713653349	"within-clone cell contrast"	"2 / branch_edge_1064 / rest"	100	100	0	0	NA	NA	0.71	0.29	0.71	0.71	0.0137247884897434	-0.0290469585182189	0.0383100078301571	NA	NA
+"contrasts"	"branch_edge_1064__2__sister_within_clone"	-0.00308424648774408	"within-clone cell contrast"	"2 / branch_edge_1064 / sister"	100	100	0	0	NA	NA	0.4	0.6	0.6	0.6	-0.00362377369377828	-0.0454589190577207	0.0287852784706468	NA	NA
+"contrasts"	"branch_edge_1098__2__within_clone"	0.0373518467478038	"within-clone cell contrast"	"2 / branch_edge_1098 / rest"	100	100	0	0	NA	NA	0.94	0.06	0.94	0.94	0.0405389812235525	-0.000868909772117765	0.0689832424661558	NA	NA
+"contrasts"	"branch_edge_1098__2__sister_within_clone"	-0.126703445074567	"within-clone cell contrast"	"2 / branch_edge_1098 / sister"	100	99	0	1	NA	NA	0	1	1	1	-0.119747967657967	-0.191115506819097	-0.06907580860989	NA	NA
+"contrasts"	"branch_edge_1099__2__within_clone"	0.0898106915430648	"within-clone cell contrast"	"2 / branch_edge_1099 / rest"	100	100	0	0	NA	NA	1	0	1	1	0.0900178884747723	0.0530028574301051	0.125789665178512	NA	NA
+"contrasts"	"branch_edge_1099__2__sister_within_clone"	0.108759499716047	"within-clone cell contrast"	"2 / branch_edge_1099 / sister"	100	100	0	0	NA	NA	1	0	1	1	0.109033043407774	0.0517557855499536	0.163557802458779	NA	NA
+"contrasts"	"branch_edge_1116__2__within_clone"	0.0701687335097917	"within-clone cell contrast"	"2 / branch_edge_1116 / rest"	100	100	0	0	NA	NA	0.98	0.02	0.98	0.98	0.0673390564998496	0.0286853208402097	0.115505650855616	NA	NA
+"contrasts"	"branch_edge_1117__2__within_clone"	0.0449509147339392	"within-clone cell contrast"	"2 / branch_edge_1117 / rest"	100	100	0	0	NA	NA	0.96	0.04	0.96	0.96	0.0425229368904085	0.00308743956051386	0.0973846721240318	NA	NA
+"contrasts"	"branch_edge_1119__2__within_clone"	0.0924324604599727	"within-clone cell contrast"	"2 / branch_edge_1119 / rest"	100	100	0	0	NA	NA	0.99	0.01	0.99	0.99	0.0930764004798993	0.0474218829976453	0.150157141808426	NA	NA
+"contrasts"	"branch_edge_1124__2__within_clone"	0.168525637379163	"within-clone cell contrast"	"2 / branch_edge_1124 / rest"	100	98	0	2	NA	NA	1	0	1	1	0.166847139072454	0.112672833376552	0.247502186694223	NA	NA
+"contrasts"	"branch_edge_1134__2__within_clone"	0.235557847227812	"within-clone cell contrast"	"2 / branch_edge_1134 / rest"	100	87	0	13	NA	NA	1	0	1	1	0.230943708824949	0.187829951567816	0.302029775029379	NA	NA
+"contrasts"	"branch_edge_1279__3__within_clone"	-0.00542979075847588	"within-clone cell contrast"	"3 / branch_edge_1279 / rest"	100	100	0	0	NA	NA	0	0.84	1	1	-0.00676635463748532	-0.00709375889413784	0	NA	NA
+"contrasts"	"branch_edge_1279__3__sister_within_clone"	0	"within-clone cell contrast"	"3 / branch_edge_1279 / sister"	100	52	0	48	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_1281__3__within_clone"	-0.00637410219473255	"within-clone cell contrast"	"3 / branch_edge_1281 / rest"	100	100	0	0	NA	NA	0	0.84	1	1	-0.00785380448993832	-0.00830633865285639	0	NA	NA
+"contrasts"	"branch_edge_1281__3__sister_within_clone"	-0.0162893722754276	"within-clone cell contrast"	"3 / branch_edge_1281 / sister"	100	100	0	0	NA	NA	0	0.84	1	1	-0.0199915023380248	-0.0231480553387656	0	NA	NA
+"contrasts"	"branch_edge_1282__3__within_clone"	0.0162893722754276	"within-clone cell contrast"	"3 / branch_edge_1282 / rest"	100	100	0	0	NA	NA	0.84	0	1	1	0.0199915023380248	0	0.0231480553387656	NA	NA
+"contrasts"	"branch_edge_1282__3__sister_within_clone"	0.0162893722754276	"within-clone cell contrast"	"3 / branch_edge_1282 / sister"	100	100	0	0	NA	NA	0.84	0	1	1	0.0199915023380248	0	0.0231480553387656	NA	NA
+"contrasts"	"branch_edge_1335__3__within_clone"	-0.00542979075847588	"within-clone cell contrast"	"3 / branch_edge_1335 / rest"	100	100	0	0	NA	NA	0	0.84	1	1	-0.00681921678309068	-0.00709375889413784	0	NA	NA
+"contrasts"	"branch_edge_1335__3__sister_within_clone"	-0.00666383411267494	"within-clone cell contrast"	"3 / branch_edge_1335 / sister"	100	100	0	0	NA	NA	0	0.84	1	1	-0.00829835946106691	-0.00879626102873092	0	NA	NA
+"contrasts"	"branch_edge_1336__3__within_clone"	0.00666383411267494	"within-clone cell contrast"	"3 / branch_edge_1336 / rest"	100	100	0	0	NA	NA	0.84	0	1	1	0.00829835946106691	0	0.00879626102873092	NA	NA
+"contrasts"	"branch_edge_1336__3__sister_within_clone"	0.00666383411267494	"within-clone cell contrast"	"3 / branch_edge_1336 / sister"	100	100	0	0	NA	NA	0.84	0	1	1	0.00829835946106691	0	0.00879626102873092	NA	NA
+"contrasts"	"branch_edge_1337__3__within_clone"	0.00472917259609189	"within-clone cell contrast"	"3 / branch_edge_1337 / rest"	100	89	0	11	NA	NA	0.853932584269663	0	1	1	0.00586417401915395	0	0.00610851460328536	NA	NA
+"contrasts"	"branch_edge_1610__0__within_clone"	0.00185959265713361	"within-clone cell contrast"	"0 / branch_edge_1610 / rest"	100	100	0	0	NA	NA	0.81	0.19	0.81	0.81	0.00285812320113885	-0.00386291937006953	0.00448502962984981	NA	NA
+"contrasts"	"branch_edge_1610__0__sister_within_clone"	0.00519169291255826	"within-clone cell contrast"	"0 / branch_edge_1610 / sister"	100	54	0	46	NA	NA	0.796296296296296	0	1	1	0.00637162311995787	0	0.00752112354832453	NA	NA
+"contrasts"	"branch_edge_1673__0__within_clone"	0.00757624295782125	"within-clone cell contrast"	"0 / branch_edge_1673 / rest"	100	100	0	0	NA	NA	0.96	0.04	0.96	0.96	0.00907243008840999	0.000533365086418455	0.012033228562767	NA	NA
+"contrasts"	"branch_edge_1673__0__sister_within_clone"	0.00708360174032005	"within-clone cell contrast"	"0 / branch_edge_1673 / sister"	100	100	0	0	NA	NA	0.89	0.11	0.89	0.89	0.00803157488688814	-0.000672110441193339	0.0126552304352989	NA	NA
+"contrasts"	"branch_edge_1674__0__within_clone"	0.000211852831126689	"within-clone cell contrast"	"0 / branch_edge_1674 / rest"	100	100	0	0	NA	NA	0.8	0.2	0.8	0.8	0.000840083174794674	-0.00391202031886561	0.00231428085056648	NA	NA
+"contrasts"	"branch_edge_1674__0__sister_within_clone"	-0.00708360174032005	"within-clone cell contrast"	"0 / branch_edge_1674 / sister"	100	100	0	0	NA	NA	0.11	0.89	0.89	0.89	-0.00803157488688814	-0.0126552304352989	0.000672110441193338	NA	NA
+"contrasts"	"branch_edge_1763__0__within_clone"	-0.00351888136165021	"within-clone cell contrast"	"0 / branch_edge_1763 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.003656794573301	-0.00438666708782449	-0.00256813763626202	NA	NA
+"contrasts"	"branch_edge_1763__0__sister_within_clone"	-0.012131558045245	"within-clone cell contrast"	"0 / branch_edge_1763 / sister"	100	99	0	1	NA	NA	0	0.828282828282828	1	1	-0.0138646377659943	-0.0176459026112655	0	NA	NA
+"contrasts"	"branch_edge_1819__0__within_clone"	0.000256872438741075	"within-clone cell contrast"	"0 / branch_edge_1819 / rest"	100	100	0	0	NA	NA	0.76	0.24	0.76	0.76	0.000795726527218064	-0.00382948315580355	0.00220187006333111	NA	NA
+"contrasts"	"branch_edge_1819__0__sister_within_clone"	-0.00057912104414852	"within-clone cell contrast"	"0 / branch_edge_1819 / sister"	100	100	0	0	NA	NA	0.2	0.77	0.793814432989691	0.793814432989691	-0.000813888230526997	-0.00571761844414042	0.00485406842588661	NA	NA
+"contrasts"	"branch_edge_1820__0__within_clone"	0.000875667685844127	"within-clone cell contrast"	"0 / branch_edge_1820 / rest"	100	100	0	0	NA	NA	0.83	0.17	0.83	0.83	0.00161245270955254	-0.00384818193144558	0.00299821225672338	NA	NA
+"contrasts"	"branch_edge_1820__0__sister_within_clone"	0.00057912104414852	"within-clone cell contrast"	"0 / branch_edge_1820 / sister"	100	100	0	0	NA	NA	0.77	0.2	0.793814432989691	0.793814432989691	0.000813888230526997	-0.00485406842588661	0.00571761844414042	NA	NA
+"contrasts"	"branch_edge_1899__0__within_clone"	-0.00350580001829835	"within-clone cell contrast"	"0 / branch_edge_1899 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00363416933316377	-0.00436669532163936	-0.00255655330882457	NA	NA
+"contrasts"	"branch_edge_1901__0__within_clone"	-0.00351888136165021	"within-clone cell contrast"	"0 / branch_edge_1901 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.0036460283473843	-0.00437378606708942	-0.00256433047302538	NA	NA
+"contrasts"	"branch_edge_1901__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_1901 / sister"	100	54	0	46	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2047__0__within_clone"	-0.00350146115688956	"within-clone cell contrast"	"0 / branch_edge_2047 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00363416933316377	-0.00437276756532731	-0.00255065383443155	NA	NA
+"contrasts"	"branch_edge_2047__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2047 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2060__0__within_clone"	-0.00357671379869377	"within-clone cell contrast"	"0 / branch_edge_2060 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00369999770220818	-0.00446278247436747	-0.00260712060428217	NA	NA
+"contrasts"	"branch_edge_2061__0__within_clone"	-0.00360405173855639	"within-clone cell contrast"	"0 / branch_edge_2061 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00372343193411433	-0.00449147797021284	-0.00262797260623626	NA	NA
+"contrasts"	"branch_edge_2061__0__sister_within_clone"	-0.00165592668694937	"within-clone cell contrast"	"0 / branch_edge_2061 / sister"	100	100	0	0	NA	NA	0	0.78	1	1	-0.00203806361470691	-0.00240862063556272	0	NA	NA
+"contrasts"	"branch_edge_2062__0__within_clone"	-0.00180565805218329	"within-clone cell contrast"	"0 / branch_edge_2062 / rest"	100	100	0	0	NA	NA	0.02	0.98	0.98	0.98	-0.00168625425068602	-0.00395580998509359	-0.000401807751120646	NA	NA
+"contrasts"	"branch_edge_2062__0__sister_within_clone"	0.00165592668694937	"within-clone cell contrast"	"0 / branch_edge_2062 / sister"	100	100	0	0	NA	NA	0.78	0	1	1	0.00203806361470691	0	0.00240862063556272	NA	NA
+"contrasts"	"branch_edge_2063__0__within_clone"	-0.00303264732632931	"within-clone cell contrast"	"0 / branch_edge_2063 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00307525794380084	-0.00419840566786696	-0.00188237692857331	NA	NA
+"contrasts"	"branch_edge_2063__0__sister_within_clone"	0.000654193259041726	"within-clone cell contrast"	"0 / branch_edge_2063 / sister"	100	100	0	0	NA	NA	0.78	0	1	1	0.000802873545187572	0	0.000883160899706329	NA	NA
+"contrasts"	"branch_edge_2064__0__within_clone"	-0.00357219774591764	"within-clone cell contrast"	"0 / branch_edge_2064 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00370963841328101	-0.00444874746052502	-0.00261262882044409	NA	NA
+"contrasts"	"branch_edge_2064__0__sister_within_clone"	-0.000654193259041726	"within-clone cell contrast"	"0 / branch_edge_2064 / sister"	100	100	0	0	NA	NA	0	0.78	1	1	-0.000802873545187572	-0.000883160899706329	0	NA	NA
+"contrasts"	"branch_edge_2221__0__within_clone"	-0.00355424700347584	"within-clone cell contrast"	"0 / branch_edge_2221 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00370592536851977	-0.00443445237424258	-0.00257678891099124	NA	NA
+"contrasts"	"branch_edge_2221__0__sister_within_clone"	-0.0141440387986652	"within-clone cell contrast"	"0 / branch_edge_2221 / sister"	100	90	0	10	NA	NA	0	0.766666666666667	1	1	-0.0163200447676907	-0.0212160581979979	0	NA	NA
+"contrasts"	"branch_edge_2223__0__within_clone"	0.000652171932178469	"within-clone cell contrast"	"0 / branch_edge_2223 / rest"	100	100	0	0	NA	NA	0.75	0.25	0.75	0.75	0.00127196898154588	-0.00384273405896514	0.0027115062257065	NA	NA
+"contrasts"	"branch_edge_2223__0__sister_within_clone"	-0.0321177265058285	"within-clone cell contrast"	"0 / branch_edge_2223 / sister"	100	100	0	0	NA	NA	0.02	0.98	0.98	0.98	-0.0347971298658817	-0.0459718717239185	-0.0126505167366199	NA	NA
+"contrasts"	"branch_edge_2224__0__within_clone"	0.0338654220656233	"within-clone cell contrast"	"0 / branch_edge_2224 / rest"	100	100	0	0	NA	NA	0.98	0.02	0.98	0.98	0.0372452845496073	0.0132198090578987	0.0478795032235601	NA	NA
+"contrasts"	"branch_edge_2224__0__sister_within_clone"	0.0321177265058285	"within-clone cell contrast"	"0 / branch_edge_2224 / sister"	100	100	0	0	NA	NA	0.98	0.02	0.98	0.98	0.0347971298658817	0.0126505167366199	0.0459718717239185	NA	NA
+"contrasts"	"branch_edge_2340__0__within_clone"	-0.00350146115688956	"within-clone cell contrast"	"0 / branch_edge_2340 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00365114051324859	-0.00437310601482927	-0.00254882376001924	NA	NA
+"contrasts"	"branch_edge_2341__0__within_clone"	-0.00351888136165021	"within-clone cell contrast"	"0 / branch_edge_2341 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00366824213866056	-0.00439996985189233	-0.0025607341514212	NA	NA
+"contrasts"	"branch_edge_2341__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2341 / sister"	100	72	0	28	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2362__0__within_clone"	-0.00357671379869377	"within-clone cell contrast"	"0 / branch_edge_2362 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00371472930681721	-0.00446983324225442	-0.00260909743865838	NA	NA
+"contrasts"	"branch_edge_2362__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2362 / sister"	100	11	0	89	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2481__0__within_clone"	-0.00351888136165021	"within-clone cell contrast"	"0 / branch_edge_2481 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.0036483157537625	-0.00438632653452212	-0.00255655330882457	NA	NA
+"contrasts"	"branch_edge_2481__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2481 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2482__0__within_clone"	-0.00352326353022014	"within-clone cell contrast"	"0 / branch_edge_2482 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00364263294660753	-0.00439347921313566	-0.0025607341514212	NA	NA
+"contrasts"	"branch_edge_2482__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2482 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2483__0__within_clone"	-0.00366000079529983	"within-clone cell contrast"	"0 / branch_edge_2483 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00377732349683591	-0.00454925552125525	-0.00265996541458839	NA	NA
+"contrasts"	"branch_edge_2483__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2483 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2484__0__within_clone"	-0.00362251039022634	"within-clone cell contrast"	"0 / branch_edge_2484 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00375316469600953	-0.00451981940769321	-0.00264711637076158	NA	NA
+"contrasts"	"branch_edge_2484__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2484 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2485__0__within_clone"	-0.0039294175205094	"within-clone cell contrast"	"0 / branch_edge_2485 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00406282050906081	-0.00488674499753761	-0.0028736103509719	NA	NA
+"contrasts"	"branch_edge_2485__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2485 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2487__0__within_clone"	-0.00403017181590708	"within-clone cell contrast"	"0 / branch_edge_2487 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00418722154644992	-0.00500828873190452	-0.00294622101292547	NA	NA
+"contrasts"	"branch_edge_2487__0__sister_within_clone"	-0.0151054538260023	"within-clone cell contrast"	"0 / branch_edge_2487 / sister"	100	100	0	0	NA	NA	0	1	1	1	-0.0159282501979946	-0.0197345445146159	-0.0084391767396975	NA	NA
+"contrasts"	"branch_edge_2488__0__within_clone"	0.0129731313095872	"within-clone cell contrast"	"0 / branch_edge_2488 / rest"	100	100	0	0	NA	NA	1	0	1	1	0.0138049293399077	0.00615729838843493	0.0177578142117014	NA	NA
+"contrasts"	"branch_edge_2488__0__sister_within_clone"	0.0151054538260023	"within-clone cell contrast"	"0 / branch_edge_2488 / sister"	100	100	0	0	NA	NA	1	0	1	1	0.0159282501979946	0.00843917673969749	0.0197345445146159	NA	NA
+"contrasts"	"branch_edge_2574__0__within_clone"	-0.00352765662689123	"within-clone cell contrast"	"0 / branch_edge_2574 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00366251520770005	-0.00440682338748718	-0.0025641321096689	NA	NA
+"contrasts"	"branch_edge_2574__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2574 / sister"	100	58	0	42	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2631__0__within_clone"	-0.00351451008045561	"within-clone cell contrast"	"0 / branch_edge_2631 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.0036568146651219	-0.00437953655536651	-0.00255065383443155	NA	NA
+"contrasts"	"branch_edge_2631__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2631 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2632__0__within_clone"	-0.0035812412845149	"within-clone cell contrast"	"0 / branch_edge_2632 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00372645947655858	-0.00446947964418131	-0.00259714269385847	NA	NA
+"contrasts"	"branch_edge_2632__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2632 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2633__0__within_clone"	-0.0037177143426633	"within-clone cell contrast"	"0 / branch_edge_2633 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00387047420648487	-0.00463078971328504	-0.00269279824693205	NA	NA
+"contrasts"	"branch_edge_2633__0__sister_within_clone"	-0.00574432751129664	"within-clone cell contrast"	"0 / branch_edge_2633 / sister"	100	100	0	0	NA	NA	0	1	1	1	-0.00611112029743655	-0.00737296704901481	-0.00300204255859098	NA	NA
+"contrasts"	"branch_edge_2634__0__within_clone"	0.00315875769670633	"within-clone cell contrast"	"0 / branch_edge_2634 / rest"	100	100	0	0	NA	NA	0.95	0.05	0.95	0.95	0.00356598295060621	0.000175872842620862	0.00545634153941065	NA	NA
+"contrasts"	"branch_edge_2634__0__sister_within_clone"	0.00574432751129664	"within-clone cell contrast"	"0 / branch_edge_2634 / sister"	100	100	0	0	NA	NA	1	0	1	1	0.00611112029743655	0.00300204255859098	0.00737296704901481	NA	NA
+"contrasts"	"branch_edge_2743__0__within_clone"	0.0147808103621437	"within-clone cell contrast"	"0 / branch_edge_2743 / rest"	100	100	0	0	NA	NA	0.81	0.19	0.81	0.81	0.0186301083604663	-0.00319584758063522	0.0228683168544226	NA	NA
+"contrasts"	"branch_edge_2743__0__sister_within_clone"	0.0176237066373719	"within-clone cell contrast"	"0 / branch_edge_2743 / sister"	100	100	0	0	NA	NA	0.81	0	1	1	0.0218533962303411	0	0.0260159478932633	NA	NA
+"contrasts"	"branch_edge_2744__0__within_clone"	-0.00349713302196139	"within-clone cell contrast"	"0 / branch_edge_2744 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00363135105437814	-0.00436601946723267	-0.00253902428257371	NA	NA
+"contrasts"	"branch_edge_2744__0__sister_within_clone"	-0.0176237066373719	"within-clone cell contrast"	"0 / branch_edge_2744 / sister"	100	100	0	0	NA	NA	0	0.81	1	1	-0.0218533962303411	-0.0260159478932633	0	NA	NA
+"contrasts"	"branch_edge_2778__0__within_clone"	0.00682173147667264	"within-clone cell contrast"	"0 / branch_edge_2778 / rest"	100	100	0	0	NA	NA	0.81	0.19	0.81	0.81	0.00915750269854687	-0.00329869199120326	0.0107598326866721	NA	NA
+"contrasts"	"branch_edge_2778__0__sister_within_clone"	-0.00367972536708468	"within-clone cell contrast"	"0 / branch_edge_2778 / sister"	100	99	0	1	NA	NA	0.121212121212121	0.818181818181818	0.870967741935484	0.870967741935484	-0.00389808324353943	-0.017569769158461	0.0119308314399837	NA	NA
+"contrasts"	"branch_edge_2835__0__within_clone"	-0.00351451008045561	"within-clone cell contrast"	"0 / branch_edge_2835 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00364263294660753	-0.00438666708782449	-0.00256695662546167	NA	NA
+"contrasts"	"branch_edge_2835__0__sister_within_clone"	-0.0106129028057332	"within-clone cell contrast"	"0 / branch_edge_2835 / sister"	100	100	0	0	NA	NA	0	0.93	1	1	-0.0129123650803087	-0.0146177717890287	0	NA	NA
+"contrasts"	"branch_edge_2836__0__within_clone"	0.00791324615665532	"within-clone cell contrast"	"0 / branch_edge_2836 / rest"	100	100	0	0	NA	NA	0.93	0.07	0.93	0.93	0.0100863076162043	-0.00244019321310305	0.0118617661126056	NA	NA
+"contrasts"	"branch_edge_2836__0__sister_within_clone"	0.0106129028057332	"within-clone cell contrast"	"0 / branch_edge_2836 / sister"	100	100	0	0	NA	NA	0.93	0	1	1	0.0129123650803087	0	0.0146177717890287	NA	NA
+"contrasts"	"branch_edge_2994__0__within_clone"	-0.00351888136165021	"within-clone cell contrast"	"0 / branch_edge_2994 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00365394331325994	-0.00437987605432429	-0.00255675167218104	NA	NA
+"contrasts"	"branch_edge_2994__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2994 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2995__0__within_clone"	-0.00362251039022634	"within-clone cell contrast"	"0 / branch_edge_2995 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00375618015659769	-0.00449826052146332	-0.00263197433162395	NA	NA
+"contrasts"	"branch_edge_2995__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2995 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2996__0__within_clone"	-0.00351014964611262	"within-clone cell contrast"	"0 / branch_edge_2996 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00363106791567896	-0.00437412767965556	-0.00255635556054826	NA	NA
+"contrasts"	"branch_edge_2996__0__sister_within_clone"	0	"within-clone cell contrast"	"0 / branch_edge_2996 / sister"	100	100	0	0	NA	NA	0	0	NA	NA	0	0	0	NA	NA
+"contrasts"	"branch_edge_2997__0__within_clone"	-0.00375721197180182	"within-clone cell contrast"	"0 / branch_edge_2997 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00388329113327678	-0.00464715251409803	-0.00272857703078686	NA	NA
+"contrasts"	"branch_edge_2997__0__sister_within_clone"	-0.00759550887076982	"within-clone cell contrast"	"0 / branch_edge_2997 / sister"	100	100	0	0	NA	NA	0	0.93	1	1	-0.00933423981709062	-0.0101939724318226	0	NA	NA
+"contrasts"	"branch_edge_2998__0__within_clone"	0.00478889861127768	"within-clone cell contrast"	"0 / branch_edge_2998 / rest"	100	100	0	0	NA	NA	0.87	0.13	0.87	0.87	0.00640961633297966	-0.00254764174582585	0.00758120482879438	NA	NA
+"contrasts"	"branch_edge_2998__0__sister_within_clone"	0.00759550887076982	"within-clone cell contrast"	"0 / branch_edge_2998 / sister"	100	100	0	0	NA	NA	0.93	0	1	1	0.00933423981709062	0	0.0101939724318226	NA	NA
+"contrasts"	"branch_edge_2999__0__within_clone"	0.001077742490463	"within-clone cell contrast"	"0 / branch_edge_2999 / rest"	100	100	0	0	NA	NA	0.8	0.2	0.8	0.8	0.00180423524295019	-0.00286341184583584	0.00312181304671947	NA	NA
+"contrasts"	"branch_edge_2999__0__sister_within_clone"	-4.45557202173302e-05	"within-clone cell contrast"	"0 / branch_edge_2999 / sister"	100	100	0	0	NA	NA	0.54	0.46	0.54	0.46	0.000108482677081467	-0.00390639132586658	0.00278398622115508	NA	NA
+"contrasts"	"branch_edge_3000__0__within_clone"	0.00134812013130048	"within-clone cell contrast"	"0 / branch_edge_3000 / rest"	100	100	0	0	NA	NA	0.82	0.18	0.82	0.82	0.00169085668574536	-0.00113102944507221	0.00327232775270335	NA	NA
+"contrasts"	"branch_edge_3000__0__sister_within_clone"	4.45557202173302e-05	"within-clone cell contrast"	"0 / branch_edge_3000 / sister"	100	100	0	0	NA	NA	0.46	0.54	0.54	0.46	-0.000108482677081467	-0.00278398622115508	0.00390639132586658	NA	NA
+"contrasts"	"branch_edge_3001__0__within_clone"	0.00198430276049181	"within-clone cell contrast"	"0 / branch_edge_3001 / rest"	100	100	0	0	NA	NA	0.94	0.06	0.94	0.94	0.00215264302165733	-0.00013596193498691	0.00357233305396575	NA	NA
+"contrasts"	"branch_edge_3001__0__sister_within_clone"	0.00382992256562835	"within-clone cell contrast"	"0 / branch_edge_3001 / sister"	100	100	0	0	NA	NA	1	0	1	1	0.00401025275582721	0.00205639577964052	0.00527321368855087	NA	NA
+"contrasts"	"branch_edge_3002__0__within_clone"	-0.00347381844184885	"within-clone cell contrast"	"0 / branch_edge_3002 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00361533863693837	-0.00443651770663892	-0.00231645537279875	NA	NA
+"contrasts"	"branch_edge_3002__0__sister_within_clone"	-0.00382992256562835	"within-clone cell contrast"	"0 / branch_edge_3002 / sister"	100	100	0	0	NA	NA	0	1	1	1	-0.00401025275582721	-0.00527321368855087	-0.00205639577964052	NA	NA
+"contrasts"	"branch_edge_3003__0__within_clone"	0.00025049575510793	"within-clone cell contrast"	"0 / branch_edge_3003 / rest"	100	100	0	0	NA	NA	0.62	0.38	0.62	0.62	0.000266220947393255	-0.00166434374278173	0.00209808773467432	NA	NA
+"contrasts"	"branch_edge_3003__0__sister_within_clone"	-0.000535556767961528	"within-clone cell contrast"	"0 / branch_edge_3003 / sister"	100	100	0	0	NA	NA	0.27	0.73	0.73	0.73	-0.000857498344142946	-0.00256021862438839	0.00258242454700912	NA	NA
+"contrasts"	"branch_edge_3004__0__within_clone"	0.000667466206863202	"within-clone cell contrast"	"0 / branch_edge_3004 / rest"	100	100	0	0	NA	NA	0.75	0.25	0.75	0.75	0.00111488767299948	-0.00235211939484773	0.00252084471466345	NA	NA
+"contrasts"	"branch_edge_3004__0__sister_within_clone"	0.000535556767961528	"within-clone cell contrast"	"0 / branch_edge_3004 / sister"	100	100	0	0	NA	NA	0.73	0.27	0.73	0.73	0.000857498344142946	-0.00258242454700912	0.00256021862438839	NA	NA
+"contrasts"	"branch_edge_3005__0__within_clone"	0.000656239483535044	"within-clone cell contrast"	"0 / branch_edge_3005 / rest"	100	100	0	0	NA	NA	0.72	0.28	0.72	0.72	0.000582836263475471	-0.0013111322530219	0.00275207600413911	NA	NA
+"contrasts"	"branch_edge_3005__0__sister_within_clone"	-0.00326236315295372	"within-clone cell contrast"	"0 / branch_edge_3005 / sister"	100	100	0	0	NA	NA	0.14	0.86	0.86	0.86	-0.00384211273273213	-0.00616602757691174	0.00120185309659689	NA	NA
+"contrasts"	"branch_edge_3006__0__within_clone"	0.00371043132738832	"within-clone cell contrast"	"0 / branch_edge_3006 / rest"	100	100	0	0	NA	NA	0.91	0.09	0.91	0.91	0.00430652281167263	-0.000727583197623447	0.00653328449452003	NA	NA
+"contrasts"	"branch_edge_3006__0__sister_within_clone"	0.00326236315295372	"within-clone cell contrast"	"0 / branch_edge_3006 / sister"	100	100	0	0	NA	NA	0.86	0.14	0.86	0.86	0.00384211273273213	-0.00120185309659689	0.00616602757691174	NA	NA
+"contrasts"	"branch_edge_3007__0__within_clone"	0.00383877966725477	"within-clone cell contrast"	"0 / branch_edge_3007 / rest"	100	100	0	0	NA	NA	1	0	1	1	0.0039911043979872	0.00277888822982853	0.00476373487693206	NA	NA
+"contrasts"	"branch_edge_3007__0__sister_within_clone"	0.00383877966725477	"within-clone cell contrast"	"0 / branch_edge_3007 / sister"	100	100	0	0	NA	NA	1	0	1	1	0.0039911043979872	0.00277888822982853	0.00476373487693206	NA	NA
+"contrasts"	"branch_edge_3008__0__within_clone"	-0.00351014964611262	"within-clone cell contrast"	"0 / branch_edge_3008 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00364263294660753	-0.00437987605432429	-0.00254487821240311	NA	NA
+"contrasts"	"branch_edge_3008__0__sister_within_clone"	-0.00383877966725477	"within-clone cell contrast"	"0 / branch_edge_3008 / sister"	100	100	0	0	NA	NA	0	1	1	1	-0.0039911043979872	-0.00476373487693206	-0.00277888822982853	NA	NA
+"contrasts"	"branch_edge_3009__0__within_clone"	0.00369827531342061	"within-clone cell contrast"	"0 / branch_edge_3009 / rest"	100	100	0	0	NA	NA	1	0	1	1	0.00384491602755984	0.00268356500530689	0.00459319907378392	NA	NA
+"contrasts"	"branch_edge_3011__0__within_clone"	0.0036647417289725	"within-clone cell contrast"	"0 / branch_edge_3011 / rest"	100	100	0	0	NA	NA	1	0	1	1	0.00381382971670767	0.00265343956528523	0.00454962411532148	NA	NA
+"contrasts"	"branch_edge_3011__0__sister_within_clone"	0.0036647417289725	"within-clone cell contrast"	"0 / branch_edge_3011 / sister"	100	100	0	0	NA	NA	1	0	1	1	0.00381382971670767	0.00265343956528523	0.00454962411532148	NA	NA
+"contrasts"	"branch_edge_3012__0__within_clone"	-0.00351888136165021	"within-clone cell contrast"	"0 / branch_edge_3012 / rest"	100	100	0	0	NA	NA	0	1	1	1	-0.00365682330980485	-0.00438632653452212	-0.0025468966171818	NA	NA
+"contrasts"	"branch_edge_3012__0__sister_within_clone"	-0.0036647417289725	"within-clone cell contrast"	"0 / branch_edge_3012 / sister"	100	100	0	0	NA	NA	0	1	1	1	-0.00381382971670767	-0.00454962411532148	-0.00265343956528523	NA	NA
+"contrasts"	"branch_edge_3013__0__within_clone"	0.00352765662689123	"within-clone cell contrast"	"0 / branch_edge_3013 / rest"	100	100	0	0	NA	NA	1	0	1	1	0.00367136979012703	0.00256258951947453	0.00439347921313566	NA	NA
+"contrasts"	"branch_edge_3013__0__sister_within_clone"	0.00352765662689123	"within-clone cell contrast"	"0 / branch_edge_3013 / sister"	100	88	0	12	NA	NA	1	0	1	1	0.00364750111652162	0.00255896334359103	0.00439757856392935	NA	NA
+"contrasts"	"branch_edge_3015__0__within_clone"	0.00346713310633182	"within-clone cell contrast"	"0 / branch_edge_3015 / rest"	100	100	0	0	NA	NA	1	0	1	1	0.00361182234439206	0.00252284725926171	0.00431310454687901	NA	NA
+"contrasts"	"branch_edge_3015__0__sister_within_clone"	0.00346713310633182	"within-clone cell contrast"	"0 / branch_edge_3015 / sister"	100	54	0	46	NA	NA	1	0	1	1	0.00335479650025404	0.00249844108359278	0.00415804594185727	NA	NA
